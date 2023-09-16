@@ -1,0 +1,2861 @@
+# Copyright (C) 2018 WP Travel Engine
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Travel Engine 1.8.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-travel-engine\n"
+"POT-Creation-Date: 2018-10-29 06:47:02+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-11-30 10:37+0100\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.7\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: hu\n"
+
+#: EDD_SL_Plugin_Updater.php:201
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr "Rendelkezésre áll egy új verzió ebből: %1$s. %2$sTekintse meg a(z) %3$s verzió részleteit vagy %5$sfrissítsen most%6$s."
+
+#: EDD_SL_Plugin_Updater.php:209
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr "Rendelkezésre áll egy új verzió ebből: %1$s. %2$sTekintse meg a(z) %3$s verzió részleteit vagy %5$sfrissítsen most%6$s."
+
+#: EDD_SL_Plugin_Updater.php:399
+msgid "You do not have permission to install plugin updates"
+msgstr "Nincs engedélye a bővítmény frissítéseinek telepítéséhez."
+
+#: EDD_SL_Plugin_Updater.php:399
+msgid "Error"
+msgstr "Hiba"
+
+#: admin/class-wp-travel-engine-admin.php:110
+msgid "Deleting the tab will also delete all the information associated with the tab. Are you sure you want to delete it?"
+msgstr "A fül törlésével a fülhöz kapcsolódó összes információ is törlődni fog. Biztosan törölni szeretné?"
+
+#: admin/class-wp-travel-engine-admin.php:111
+msgid "Deleting the Trip Fact will also delete the information associated with it. Are you sure you want to delete it?"
+msgstr "Az útinformáció törlésével a hozzá kapcsolódó összes információ is törlődni fog. Biztosan törölni szeretné?"
+
+#: admin/class-wp-travel-engine-admin.php:112
+msgid "Deleting this will also delete the information associated with it. Are you sure you want to delete it?"
+msgstr "Ennek törlésével a hozzá kapcsolódó összes információ is törlődni fog. Biztosan törölni szeretné?"
+
+#: admin/class-wp-travel-engine-admin.php:151
+msgid "Add New Trip"
+msgstr "Új út hozzáadása"
+
+#: admin/class-wp-travel-engine-admin.php:152
+msgid "New Trip"
+msgstr "Új út"
+
+#: admin/class-wp-travel-engine-admin.php:153
+msgid "Edit Trip"
+msgstr "Út szerkesztése"
+
+#: admin/class-wp-travel-engine-admin.php:154
+msgid "View Trip"
+msgstr "Út megtekintése"
+
+#: admin/class-wp-travel-engine-admin.php:155
+msgid "All Trips"
+msgstr "Összes út"
+
+#: admin/class-wp-travel-engine-admin.php:156
+msgid "Search Trips"
+msgstr "Utak keresése"
+
+#: admin/class-wp-travel-engine-admin.php:157
+msgid "Parent Trips:"
+msgstr "Fölérendelt utak:"
+
+#: admin/class-wp-travel-engine-admin.php:158
+msgid "No Trips found."
+msgstr "Nem található út."
+
+#: admin/class-wp-travel-engine-admin.php:159
+msgid "No Trips found in Trash."
+msgstr "Nem található út a kukában."
+
+#: admin/class-wp-travel-engine-admin.php:164
+#: admin/class-wp-travel-engine-admin.php:208
+#: admin/class-wp-travel-engine-admin.php:255
+#: admin/class-wp-travel-engine-admin.php:303
+msgid "Description."
+msgstr "Leírás."
+
+#: admin/class-wp-travel-engine-admin.php:195
+msgid "Add New Enquiry"
+msgstr "Új megkeresés hozzáadása"
+
+#: admin/class-wp-travel-engine-admin.php:196
+msgid "New Enquiry"
+msgstr "Új megkeresés"
+
+#: admin/class-wp-travel-engine-admin.php:197
+msgid "Edit Enquiry"
+msgstr "Megkeresés szerkesztése"
+
+#: admin/class-wp-travel-engine-admin.php:198
+msgid "View Enquiry"
+msgstr "Megkeresés megtekintése"
+
+#: admin/class-wp-travel-engine-admin.php:199
+msgid "All Enquiries"
+msgstr "Összes megkeresés"
+
+#: admin/class-wp-travel-engine-admin.php:200
+msgid "Search Enquiries"
+msgstr "Megkeresések keresése"
+
+#: admin/class-wp-travel-engine-admin.php:201
+msgid "Parent Enquiries:"
+msgstr "Fölérendelt megkeresések"
+
+#: admin/class-wp-travel-engine-admin.php:202
+msgid "No Enquiries found."
+msgstr "Nem található megkeresés."
+
+#: admin/class-wp-travel-engine-admin.php:203
+msgid "No Enquiries found in Trash."
+msgstr "A kukában nem található megkeresés."
+
+#: admin/class-wp-travel-engine-admin.php:242
+msgid "Add New Booking"
+msgstr "Új foglalás hozzáadása"
+
+#: admin/class-wp-travel-engine-admin.php:243
+msgid "New Booking"
+msgstr "Új foglalás"
+
+#: admin/class-wp-travel-engine-admin.php:244
+msgid "Edit Booking"
+msgstr "Foglalás szerkesztése"
+
+#: admin/class-wp-travel-engine-admin.php:246
+msgid "All Bookings"
+msgstr "Összes foglalás"
+
+#: admin/class-wp-travel-engine-admin.php:247
+msgid "Search Bookings"
+msgstr "Foglalások keresése"
+
+#: admin/class-wp-travel-engine-admin.php:248
+msgid "Parent Bookings:"
+msgstr "Fölérendelt foglalások:"
+
+#: admin/class-wp-travel-engine-admin.php:249
+msgid "No Bookings found."
+msgstr "Nem található foglalás."
+
+#: admin/class-wp-travel-engine-admin.php:250
+msgid "No Bookings found in Trash."
+msgstr "Nem található foglalás a kukában."
+
+#: admin/class-wp-travel-engine-admin.php:290
+msgid "Add New Customer"
+msgstr "Új ügyfél hozzáadása"
+
+#: admin/class-wp-travel-engine-admin.php:291
+msgid "New Customer"
+msgstr "Új ügyfél"
+
+#: admin/class-wp-travel-engine-admin.php:292
+msgid "Edit Customer"
+msgstr "Ügyfél szerkesztése"
+
+#: admin/class-wp-travel-engine-admin.php:294
+msgid "All Customers"
+msgstr "Összes ügyfél"
+
+#: admin/class-wp-travel-engine-admin.php:295
+msgid "Search Customers"
+msgstr "Ügyfelek keresése"
+
+#: admin/class-wp-travel-engine-admin.php:296
+msgid "Parent Customers:"
+msgstr "Fölérendelt ügyfelek:"
+
+#: admin/class-wp-travel-engine-admin.php:297
+msgid "No Customers found."
+msgstr "Nem található ügyfél."
+
+#: admin/class-wp-travel-engine-admin.php:298
+msgid "No Customers found in Trash."
+msgstr "Nem található ügyfél a kukában."
+
+#: admin/class-wp-travel-engine-admin.php:338
+msgid "Trip ID"
+msgstr "Út azonosítója"
+
+#: admin/class-wp-travel-engine-admin.php:339
+msgid "Trip Name"
+msgstr "Út neve"
+
+#: admin/class-wp-travel-engine-admin.php:340
+msgid "Travelers"
+msgstr "Utazók"
+
+#: admin/class-wp-travel-engine-admin.php:341
+msgid "Total Paid"
+msgstr "Összesen fizetve"
+
+#: admin/class-wp-travel-engine-admin.php:342
+#: includes/class-wp-travel-engine-thank-you.php:185
+msgid "Remaining Payment"
+msgstr "Fennmaradó összeg"
+
+#: admin/class-wp-travel-engine-admin.php:343
+msgid "Total Cost"
+msgstr "Teljes ár"
+
+#: admin/class-wp-travel-engine-admin.php:447
+msgid "Thumbnail"
+msgstr "Bélyegkép"
+
+#: admin/class-wp-travel-engine-admin.php:475
+msgid "Customer ID"
+msgstr "Ügyfél azonosítója"
+
+#: admin/class-wp-travel-engine-admin.php:476 admin/meta-parts/enquiry.php:24
+#: includes/backend/booking/booking-details.php:66
+#: includes/backend/booking/booking.php:77
+#: includes/class-wp-travel-engine-functions.php:1047
+#: includes/privacy-functions.php:121 includes/privacy-functions.php:185
+#: includes/privacy-functions.php:238
+msgid "Country"
+msgstr "Ország"
+
+#: admin/class-wp-travel-engine-admin.php:477
+msgid "Bookings"
+msgstr "Foglalások"
+
+#: admin/class-wp-travel-engine-admin.php:478
+msgid "Total Spent"
+msgstr "Teljes kiadás"
+
+#: admin/class-wp-travel-engine-admin.php:479
+msgid "Created"
+msgstr "Létrehozva"
+
+#: admin/class-wp-travel-engine-admin.php:547
+msgid "Search Destinations"
+msgstr "Úticél keresése"
+
+#: admin/class-wp-travel-engine-admin.php:548
+msgid "All Destinations"
+msgstr "Összes úticél"
+
+#: admin/class-wp-travel-engine-admin.php:549
+#: admin/class-wp-travel-engine-admin.php:550
+msgid "Parent Destinations"
+msgstr "Fölérendelt úticélok"
+
+#: admin/class-wp-travel-engine-admin.php:551
+msgid "Edit Destinations"
+msgstr "Úticél szerkesztése"
+
+#: admin/class-wp-travel-engine-admin.php:552
+msgid "Update Destinations"
+msgstr "Úticélok frissítése"
+
+#: admin/class-wp-travel-engine-admin.php:553
+msgid "Add New Destinations"
+msgstr "Új úticélok hozzáadása"
+
+#: admin/class-wp-travel-engine-admin.php:554
+msgid "New Destinations Name"
+msgstr "Új úticélok neve"
+
+#: admin/class-wp-travel-engine-admin.php:555
+msgid "Destinations"
+msgstr "Úticélok"
+
+#: admin/class-wp-travel-engine-admin.php:580
+msgid "Search Activities"
+msgstr "Különlegesség keresése"
+
+#: admin/class-wp-travel-engine-admin.php:581
+msgid "All Activities"
+msgstr "Összes különlegesség"
+
+#: admin/class-wp-travel-engine-admin.php:582
+#: admin/class-wp-travel-engine-admin.php:583
+msgid "Parent Activities"
+msgstr "Fölérendelt különlegességek"
+
+#: admin/class-wp-travel-engine-admin.php:584
+msgid "Edit Activities"
+msgstr "Különlegesség szerkesztése"
+
+#: admin/class-wp-travel-engine-admin.php:585
+msgid "Update Activities"
+msgstr "Különlegességek frissítése"
+
+#: admin/class-wp-travel-engine-admin.php:586
+msgid "Add New Activities"
+msgstr "Új különlegesség hozzáadása"
+
+#: admin/class-wp-travel-engine-admin.php:587
+msgid "New Activities Name"
+msgstr "Új különlegességek neve"
+
+#: admin/class-wp-travel-engine-admin.php:588
+msgid "Activities"
+msgstr "Különlegességek"
+
+#: admin/class-wp-travel-engine-admin.php:614
+msgid "Search Trip Type"
+msgstr "Úttípus keresése"
+
+#: admin/class-wp-travel-engine-admin.php:615
+msgid "All Trip Type"
+msgstr "Összes úttípus"
+
+#: admin/class-wp-travel-engine-admin.php:616
+#: admin/class-wp-travel-engine-admin.php:617
+msgid "Parent Trip Type"
+msgstr "Fölérendelt úttípus"
+
+#: admin/class-wp-travel-engine-admin.php:618
+msgid "Edit Trip Type"
+msgstr "Összes úttípus"
+
+#: admin/class-wp-travel-engine-admin.php:619
+msgid "Update Trip Type"
+msgstr "Úttípus frissítése"
+
+#: admin/class-wp-travel-engine-admin.php:620
+msgid "Add New Trip Type"
+msgstr "Új úttípus hozzáadása"
+
+#: admin/class-wp-travel-engine-admin.php:621
+msgid "New Trip Type Name"
+msgstr "Új úttípus neve"
+
+#: admin/class-wp-travel-engine-admin.php:622
+msgid "Trip Type"
+msgstr "Úttípus"
+
+#: admin/class-wp-travel-engine-admin.php:688
+#: includes/backend/settings/sub-tabs/tabs_settings.php:37
+msgid "Tab Name:"
+msgstr "Fül neve:"
+
+#: admin/class-wp-travel-engine-admin.php:690
+#: includes/backend/settings/sub-tabs/tabs_settings.php:40
+msgid "Tab Name is the label that appears on each of the tabs."
+msgstr "A fül neve az a felirat, amely az egyes füleken megjelenik."
+
+#: admin/class-wp-travel-engine-admin.php:693
+#: includes/backend/settings/sub-tabs/tabs_settings.php:43
+msgid "Tab Icon:"
+msgstr "Fül ikonja:"
+
+#: admin/class-wp-travel-engine-admin.php:695
+msgid "Choose icon for the tab. Default icon will be shown if no icon is selected."
+msgstr "Válasszon egy ikont a fülre. Ha nincs ikon kiválasztva, akkor az alapértelmezett ikon fog megjelenni."
+
+#: admin/class-wp-travel-engine-admin.php:786
+#: includes/backend/settings/sub-tabs/trip_info.php:18
+msgid "Field Name:"
+msgstr "Mező neve:"
+
+#: admin/class-wp-travel-engine-admin.php:788
+msgid "Field ID is the unique id of the input field."
+msgstr "A mező azonosítója a beviteli mező egyedi azonosítója."
+
+#: admin/class-wp-travel-engine-admin.php:791
+#: includes/backend/settings/sub-tabs/trip_info.php:23
+msgid "Field Icon:"
+msgstr "Mező ikonja:"
+
+#: admin/class-wp-travel-engine-admin.php:793
+#: includes/backend/settings/sub-tabs/tabs_settings.php:46
+#: includes/backend/settings/sub-tabs/trip_info.php:25
+msgid "Choose icon for the tab. Leave blank if no icon is required."
+msgstr "Válasszon egy ikont a fülre. Ha nincs szükség ikonra, akkor hagyja üresen."
+
+#: admin/class-wp-travel-engine-admin.php:796
+#: includes/backend/settings/sub-tabs/trip_info.php:28
+msgid "Field Type:"
+msgstr "Mező típusa:"
+
+#: admin/class-wp-travel-engine-admin.php:797
+#: admin/class-wp-travel-engine-admin.php:856
+#: admin/meta-parts/trip-facts.php:55
+#: includes/backend/booking/booking-details.php:67
+#: includes/backend/booking/booking.php:78
+#: includes/backend/booking/customer.php:36 includes/backend/booking/pay.php:26
+#: includes/backend/settings/sub-tabs/trip_info.php:29
+#: includes/class-wp-travel-engine-confirmation.php:483
+#: includes/templates/order-form-template.php:235
+#: public/class-wp-travel-engine-public.php:999
+#: public/class-wp-travel-engine-public.php:1069
+msgid "Choose a field type&hellip;"
+msgstr "Mező típusának kiválasztása&hellip;"
+
+#: admin/class-wp-travel-engine-admin.php:798
+#: admin/class-wp-travel-engine-admin.php:857
+#: admin/meta-parts/trip-facts.php:56
+#: includes/backend/settings/sub-tabs/trip_info.php:30
+msgid "Choose input type&hellip;"
+msgstr "Bevitel típusának kiválasztása&hellip;"
+
+#: admin/class-wp-travel-engine-admin.php:807
+#: includes/backend/settings/sub-tabs/trip_info.php:40
+msgid "Field type is the input types."
+msgstr "A mező típusa a bevitel típusa."
+
+#: admin/class-wp-travel-engine-admin.php:810
+#: includes/backend/settings/sub-tabs/trip_info.php:43
+msgid "Select Options: "
+msgstr "Opciók kijelölése: "
+
+#: admin/class-wp-travel-engine-admin.php:810
+#: includes/backend/settings/sub-tabs/trip_info.php:44
+msgid "Enter drop-down values separated by commas"
+msgstr "Adjon meg legördülő értékeket vesszőkkel elválasztva"
+
+#: admin/class-wp-travel-engine-admin.php:813
+#: includes/backend/settings/sub-tabs/trip_info.php:47
+msgid "Field Placeholder:"
+msgstr "Mező helyőrzője:"
+
+#: admin/class-wp-travel-engine-admin.php:815
+#: includes/backend/settings/sub-tabs/trip_info.php:49
+msgid "Placeholder for the input field."
+msgstr "A beviteli mező helyőrzője."
+
+#: admin/class-wp-travel-engine-admin.php:867
+#: admin/meta-parts/trip-facts.php:69 admin/meta-parts/trip-price.php:42
+msgid "Number of days"
+msgstr "Napok száma"
+
+#: admin/class-wp-travel-engine-admin.php:926
+msgid "Destination Template"
+msgstr "Úticélsablon"
+
+#: admin/class-wp-travel-engine-admin.php:927
+msgid "Activities Template"
+msgstr "Különlegességsablon"
+
+#: admin/class-wp-travel-engine-admin.php:928
+msgid "Trip Types Template"
+msgstr "Úttípussablon"
+
+#: admin/class-wp-travel-engine-admin.php:929
+msgid "Trip Listing Template"
+msgstr "Útfelsorolás-sablon"
+
+#: admin/class-wp-travel-engine-admin.php:956
+msgid "Day"
+msgstr "Nap"
+
+#: admin/class-wp-travel-engine-admin.php:959 admin/meta-parts/tabs.php:100
+msgid "Itinerary Title:"
+msgstr "Útvonal címe:"
+
+#: admin/class-wp-travel-engine-admin.php:963 admin/meta-parts/tabs.php:104
+msgid "Itinerary Content:"
+msgstr "Útvonal tartalma:"
+
+#: admin/class-wp-travel-engine-admin.php:990
+msgid "FAQ"
+msgstr "GYIK"
+
+#: admin/class-wp-travel-engine-admin.php:993 admin/meta-parts/tabs.php:173
+msgid "Question:"
+msgstr "Kérdés:"
+
+#: admin/class-wp-travel-engine-admin.php:997 admin/meta-parts/tabs.php:177
+msgid "Answer:"
+msgstr "Válasz:"
+
+#: admin/class-wp-travel-engine-admin.php:1022
+msgid "Please put your valid %1$s Merchant account ID in %2$s: Trips > Settings > Payment > PayPal ID %3$s. This is the ID where all the payments will be accepted."
+msgstr ""
+
+#: admin/class-wp-travel-engine-admin.php:1047
+msgid "Thank you for using %1$s. Please rate us on %2$s."
+msgstr "Köszönjük, hogy használja ezt: %1$s. Kérjük, értékeljen minket itt: %2$s."
+
+#: admin/class-wp-travel-engine-admin.php:1071
+msgid "WP Travel Engine is %1$s GDPR %2$scompatible now. Please go to %3$s Settings > Privacy %4$s to select Privacy Policy page."
+msgstr "A WP Travel Engine %1$s GDPR %2$s-kompatibilis. Az adatvédelmi irányelveket tartalmazó oldal kijelöléséhez látogasson el ide: %3$s Beállítások > Adatvédelem %4$s."
+
+#: admin/class-wp-travel-engine-admin.php:1094
+msgid "PayPal ID : "
+msgstr "PayPal ID: "
+
+#: admin/class-wp-travel-engine-admin.php:1096
+msgid "Enter a valid Merchant account ID (strongly recommend) or PayPal account email address. All payments will go to this account."
+msgstr ""
+
+#: admin/class-wp-travel-engine-admin.php:1110
+msgid "Paypal Payment Details"
+msgstr "Paypal-fizetés részletei"
+
+#: admin/class-wp-travel-engine-tabs.php:23
+msgid "Trip Data"
+msgstr "Út adatai"
+
+#: admin/class-wp-travel-engine-tabs.php:37
+msgid "General"
+msgstr "Általános"
+
+#: admin/class-wp-travel-engine-tabs.php:40
+#: includes/class-wp-travel-engine-order-meta.php:119
+msgid "Trip Info"
+msgstr "Útinformációk"
+
+#: admin/class-wp-travel-engine-tabs.php:90
+msgid "Trip Tabs"
+msgstr "Útismertető"
+
+#: admin/class-wp-travel-engine-tabs.php:135
+msgid "Enquiry details"
+msgstr "Megkeresés részletei"
+
+#: admin/meta-parts/enquiry.php:6
+msgid "Package Name"
+msgstr "Csomag neve"
+
+#: admin/meta-parts/enquiry.php:15 includes/privacy-functions.php:113
+msgid "Name"
+msgstr "Név"
+
+#: admin/meta-parts/enquiry.php:19
+#: includes/backend/booking/booking-details.php:48
+#: includes/backend/booking/booking.php:59 includes/privacy-functions.php:117
+#: includes/privacy-functions.php:173 includes/privacy-functions.php:226
+msgid "Email"
+msgstr "E-mail"
+
+#: admin/meta-parts/enquiry.php:29 includes/privacy-functions.php:125
+msgid "Contact Number"
+msgstr "Telefonszám"
+
+#: admin/meta-parts/enquiry.php:34 includes/privacy-functions.php:129
+msgid "Number of Adults"
+msgstr "Felnőttek száma"
+
+#: admin/meta-parts/enquiry.php:39 includes/privacy-functions.php:133
+msgid "Number of Children"
+msgstr "Gyermekek száma"
+
+#: admin/meta-parts/enquiry.php:44 includes/privacy-functions.php:137
+msgid "Message"
+msgstr "Üzenet"
+
+#: admin/meta-parts/tabs.php:81
+#: includes/frontend/trip-meta/trip-meta-parts/trip-tabs.php:396
+msgid "Expand/Close"
+msgstr "Kibontás/Összecsukás"
+
+#: admin/meta-parts/tabs.php:97
+msgid "Day-"
+msgstr "Nap #"
+
+#: admin/meta-parts/tabs.php:115
+msgid "Add Itinerary"
+msgstr "Útvonal hozzáadása"
+
+#: admin/meta-parts/tabs.php:116
+msgid "Add Itinerary for the trip days by pressing the above button. You can write title and description for each day."
+msgstr "Az út napjaihoz a fenti gomb megnyomásával adhat útvonalat. Minden naphoz adhat címet és egy leírást."
+
+#: admin/meta-parts/tabs.php:128 admin/meta-parts/tabs.php:137
+#: admin/meta-parts/tabs.php:154
+msgid "Title:"
+msgstr "Cím:"
+
+#: admin/meta-parts/tabs.php:131
+msgid "Price Includes:"
+msgstr "Az ár tartalmazza a következőket:"
+
+#: admin/meta-parts/tabs.php:140
+msgid "Price doesn't Include:"
+msgstr "Az ár nem tartalmazza a következőket:"
+
+#: admin/meta-parts/tabs.php:170
+msgid "Faq-"
+msgstr "GYIK #"
+
+#: admin/meta-parts/tabs.php:187
+msgid "Add Faq"
+msgstr "GYIK hozzáadása"
+
+#: admin/meta-parts/tabs.php:188
+msgid "Add Frequently Asked Questions for the trip by pressing the above button. You can write question and answer for each FAQs."
+msgstr "Az úthoz a fenti gomb megnyomásával adhat gyakran ismétlődő kérdéseket (GYIK). Minden GYIK-hez adhat egy kérdést és egy választ."
+
+#: admin/meta-parts/tabs.php:199
+msgid "Review Title:"
+msgstr "Vélemény címe:"
+
+#: admin/meta-parts/trip-facts.php:6
+msgid "You can add, edit and delete the trip info via <b>Trips > Settings > Trip Info</b>."
+msgstr "Az útra vonatkozó információkat az <b>Utak > Beállítások > Útinformációk</b> oldalon egészítheti ki, szerkesztheti és törölheti."
+
+#: admin/meta-parts/trip-facts.php:18
+msgid "Info Type&hellip;"
+msgstr "Információ típusa&hellip;"
+
+#: admin/meta-parts/trip-facts.php:19
+msgid "Choose info type&hellip;"
+msgstr "Információtípus kiválasztása&hellip;"
+
+#: admin/meta-parts/trip-price.php:8
+msgid "Regular Price : "
+msgstr "Rendes ár: "
+
+#: admin/meta-parts/trip-price.php:18
+msgid "Regular Price for the trip"
+msgstr "Az út rendes ára"
+
+#: admin/meta-parts/trip-price.php:21
+msgid "Enable Sale Price:"
+msgstr "Kedvezményes (akciós) ár megjelenítése:"
+
+#: admin/meta-parts/trip-price.php:25
+msgid "Sales Price : "
+msgstr "Kedvezményes ár: "
+
+#: admin/meta-parts/trip-price.php:35
+msgid "Price for the trip"
+msgstr "Az út ára"
+
+#: admin/meta-parts/trip-price.php:41
+msgid "Trip Duration (Days) : "
+msgstr "Az út időtartama (nap): "
+
+#: admin/meta-parts/trip-price.php:45
+msgid "Trip Duration (Nights) : "
+msgstr "Az út időtartama (éjszaka): "
+
+#: admin/meta-parts/trip-price.php:46
+msgid "Number of nights"
+msgstr "Éjszakák száma"
+
+#: includes/backend/booking/booking-details.php:12
+#: includes/backend/booking/customer.php:10
+msgid "Customer ID: "
+msgstr "Ügyfél azonosítója: "
+
+#: includes/backend/booking/booking-details.php:21
+#: includes/backend/booking/booking.php:31
+#: includes/backend/booking/booking.php:143
+msgid "Title"
+msgstr "Cím"
+
+#: includes/backend/booking/booking-details.php:23
+#: includes/backend/booking/booking.php:33
+#: includes/backend/booking/booking.php:114
+#: includes/backend/booking/booking.php:145
+#: includes/class-wp-travel-engine-confirmation.php:518
+#: includes/class-wp-travel-engine-confirmation.php:548
+msgid "Please choose&hellip;"
+msgstr "Kiválasztás&hellip;"
+
+#: includes/backend/booking/booking-details.php:36
+#: includes/backend/booking/booking.php:47
+#: includes/backend/booking/booking.php:159 includes/privacy-functions.php:165
+#: includes/privacy-functions.php:218
+msgid "First Name"
+msgstr "Keresztnév"
+
+#: includes/backend/booking/booking-details.php:42
+#: includes/backend/booking/booking.php:53
+#: includes/backend/booking/booking.php:165 includes/privacy-functions.php:169
+#: includes/privacy-functions.php:222
+msgid "Last Name"
+msgstr "Családnév"
+
+#: includes/backend/booking/booking-details.php:54
+#: includes/backend/booking/booking.php:65
+#: includes/backend/booking/booking.php:171 includes/privacy-functions.php:177
+#: includes/privacy-functions.php:230
+msgid "Address"
+msgstr "Cím"
+
+#: includes/backend/booking/booking-details.php:60
+#: includes/backend/booking/booking.php:71 includes/privacy-functions.php:181
+#: includes/privacy-functions.php:234
+msgid "City"
+msgstr "Település"
+
+#: includes/backend/booking/booking-details.php:68
+#: includes/backend/booking/booking.php:79
+#: includes/backend/booking/customer.php:37
+#: includes/class-wp-travel-engine-confirmation.php:484
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:153
+#: includes/templates/order-form-template.php:236
+#: public/class-wp-travel-engine-public.php:1000
+#: public/class-wp-travel-engine-public.php:1070
+msgid "Choose country&hellip;"
+msgstr "Ország kiválasztása&hellip;"
+
+#: includes/backend/booking/booking-details.php:81
+#: includes/backend/booking/booking.php:94
+#: includes/backend/booking/booking.php:177
+msgid "Post-code"
+msgstr "Irányítószám"
+
+#: includes/backend/booking/booking-details.php:87
+#: includes/backend/booking/booking.php:100
+#: includes/backend/booking/booking.php:183
+msgid "Phone"
+msgstr "Telefon"
+
+#: includes/backend/booking/booking.php:8
+msgid "Travelers info not available."
+msgstr "Nem áll rendelkezésre információ az utazókról."
+
+#: includes/backend/booking/booking.php:21
+#: includes/class-wp-travel-engine-confirmation.php:433
+msgid "Personal details for Traveler: "
+msgstr "Utazó személyes adatai: "
+
+#: includes/backend/booking/booking.php:106
+msgid "Date of Birth"
+msgstr "Születési dátum"
+
+#: includes/backend/booking/booking.php:112
+msgid "Gender"
+msgstr "Nem"
+
+#: includes/backend/booking/booking.php:134
+#: includes/class-wp-travel-engine-confirmation.php:536
+msgid "Emergency contact details for Traveler: "
+msgstr "Utazó vészhelyzeti kapcsolattartási adatai: "
+
+#: includes/backend/booking/booking.php:189
+msgid "Relation"
+msgstr "Kapcsolat"
+
+#: includes/backend/booking/booking.php:208
+msgid "Medical details for Traveler: "
+msgstr "Utazó orvosi adatai: "
+
+#: includes/backend/booking/customer-history.php:16
+msgid "Bookings: "
+msgstr "Foglalások: "
+
+#: includes/backend/booking/customer-history.php:17
+msgid "Booked On: "
+msgstr "Foglalás dátuma: "
+
+#: includes/backend/booking/customer.php:15
+msgid "First Name: "
+msgstr "Keresztnév: "
+
+#: includes/backend/booking/customer.php:19
+msgid "Last Name: "
+msgstr "Családnév: "
+
+#: includes/backend/booking/customer.php:23
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:408
+msgid "Email: "
+msgstr "E-mail: "
+
+#: includes/backend/booking/customer.php:27
+msgid "Address: "
+msgstr "Cím: "
+
+#: includes/backend/booking/customer.php:31
+msgid "City: "
+msgstr "Település: "
+
+#: includes/backend/booking/customer.php:35
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:149
+msgid "Country:"
+msgstr "Ország:"
+
+#: includes/backend/booking/customer.php:49
+msgid "Post-code: "
+msgstr "Irányítószám: "
+
+#: includes/backend/booking/pay.php:25
+msgid "Payment Status: "
+msgstr "Fizetés állapota: "
+
+#: includes/backend/booking/pay.php:35
+msgid "Payer Status: "
+msgstr "Fizető állapota: "
+
+#: includes/backend/booking/pay.php:38
+msgid "Payment Type: "
+msgstr "Fizetés típusa: "
+
+#: includes/backend/booking/pay.php:41
+msgid "Transaction ID: "
+msgstr "Ügylet azonosítója: "
+
+#: includes/backend/booking/trip.php:8
+msgid "Travelers: "
+msgstr "Utazók: "
+
+#: includes/backend/booking/trip.php:12
+msgid "Total Cost: "
+msgstr "Teljes ár: "
+
+#: includes/backend/booking/trip.php:25
+msgid "Remaining Payment: "
+msgstr "Fennmaradó összeg: "
+
+#: includes/backend/booking/trip.php:29
+msgid "Trip ID: "
+msgstr "Út azonosítója: "
+
+#: includes/backend/booking/trip.php:33
+msgid "Trip Name: "
+msgstr "Út neve: "
+
+#: includes/backend/booking/trip.php:37
+msgid "Trip Start Date: "
+msgstr "Út kezdő dátuma: "
+
+#: includes/backend/booking/trip.php:44
+msgid "Acquisition Method: "
+msgstr "Vásárlás módja: "
+
+#: includes/backend/settings/extensions.php:8
+msgid "Number of Trip Dates: "
+msgstr "Út dátumainak száma: "
+
+#: includes/backend/settings/misc.php:7
+msgid "Currency code:"
+msgstr "Pénznem kódja:"
+
+#: includes/backend/settings/misc.php:9 includes/backend/settings/misc.php:10
+msgid "Choose a currency&hellip;"
+msgstr "Pénznem kiválasztása&hellip;"
+
+#: includes/backend/settings/misc.php:28
+msgid "Book Now Button Text : "
+msgstr "„Foglalás most” gomb szövege: "
+
+#: includes/backend/settings/misc.php:29
+msgid "Book now button label"
+msgstr "„Foglalás most” gomb címkéje"
+
+#: includes/backend/settings/misc.php:33
+msgid "Hide Booking Form : "
+msgstr "Foglalási űrlap elrejtése "
+
+#: includes/backend/settings/misc.php:35
+msgid "If checked, booking form in the trip detail page will be disabled."
+msgstr "Ha be van jelölve, a foglalási űrlap nem fog látszani az út részleteit tartalmazó oldalon."
+
+#: includes/backend/settings/misc.php:39
+msgid "Hide Enquiry Form : "
+msgstr "Megkeresési űrlap elrejtése "
+
+#: includes/backend/settings/misc.php:41
+msgid "If checked, enquiry form in the trip detail page will be disabled."
+msgstr "Ha be van jelölve, a megkeresés űrlap nem fog látszani az út részleteit tartalmazó oldalon."
+
+#: includes/backend/settings/misc.php:44
+msgid "Hide Trip Featured Image : "
+msgstr "Az út kiemelt képének elrejtése: "
+
+#: includes/backend/settings/misc.php:46
+msgid "If checked, featured image in the trip detail page will be disabled."
+msgstr "Ha be van jelölve, a kiemelt kép nem fog látszani az út részleteit tartalmazó oldalon."
+
+#: includes/backend/settings/misc.php:49
+msgid "Email Subject for Enquiry : "
+msgstr "E-mail tárgya megkeresés esetén: "
+
+#: includes/backend/settings/misc.php:51
+msgid "Email subject for admin if a query is received."
+msgstr "Az adminnak menő e-mail tárgya, ha megkeresés érkezett."
+
+#: includes/backend/settings/misc.php:55
+msgid "Enquiry Thankyou Page:"
+msgstr "Megkeresést megköszönő oldal:"
+
+#: includes/backend/settings/misc.php:62
+#: includes/backend/settings/sub-tabs/page_settings.php:12
+#: includes/backend/settings/sub-tabs/page_settings.php:28
+#: includes/backend/settings/sub-tabs/page_settings.php:44
+#: includes/backend/settings/sub-tabs/page_settings.php:61
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Kijelölés &mdash;"
+
+#: includes/backend/settings/misc.php:68
+msgid "This is the thankyou page where user will be redirected after successful enquiry."
+msgstr "Ez az a megköszönő oldal, ahová a felhasználó egy megkeresés sikeres elküldése után át lesz irányítva."
+
+#: includes/backend/settings/misc.php:72
+msgid "Travelers Information : "
+msgstr "Információ az utazókról: "
+
+#: includes/backend/settings/misc.php:74
+msgid "If checked, information of all the travelers will be optional. After checkout, information of each of the travelers won't be asked to fill up."
+msgstr "Ha be van jelölve, akkor az utazókról szóló információk megadása nem lesz kötelező. A megrendelés leadása után az oldalon nem kell megadni az összes utazóra vonatkozó információkat."
+
+#: includes/backend/settings/misc.php:78
+msgid "Per Person Format : "
+msgstr "„Személyenként” formátum: "
+
+#: includes/backend/settings/misc.php:80
+msgid "Per Person format in the trip booking form. Default is '/person'"
+msgstr "Az út foglalási oldalán megjelenő „személyenként” megjelölés formátuma. Az alapértelmezett: „/person”"
+
+#: includes/backend/settings/misc.php:84
+msgid "Booking Confirmation Message : "
+msgstr "Foglalást megerősítő üzenet: "
+
+#: includes/backend/settings/misc.php:89
+msgid "GDPR Message : "
+msgstr "GDPR-üzenet: "
+
+#: includes/backend/settings/payment.php:4
+msgid "Enable Payment Gateways"
+msgstr ""
+
+#: includes/backend/settings/payment.php:6
+msgid "Test Payment : "
+msgstr "Próbafizetés: "
+
+#: includes/backend/settings/payment.php:8
+msgid "If checked, payment gateways will be disabled and booking will be done on a test mode. However, booking email will be received and booking will be successfully completed."
+msgstr ""
+
+#: includes/backend/settings/payment.php:11
+msgid "Paypal Standard: "
+msgstr " "
+
+#: includes/backend/settings/payment.php:13
+msgid "Please check this to enable Paypal Standard booking system for trip booking and fill the account info below."
+msgstr ""
+
+#: includes/backend/settings/payment.php:19
+msgid "Stripe : "
+msgstr " "
+
+#: includes/backend/settings/payment.php:21
+msgid "Please check this to enable Stripe booking system for trip booking and fill the account info below."
+msgstr ""
+
+#: includes/backend/settings/payment.php:32
+msgid "Payment Gateways"
+msgstr ""
+
+#: includes/backend/settings/sub-tabs/book_notification.php:10
+msgid "Sale Notification Subject:"
+msgstr "Eladásról szóló értesítés tárgya:"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:12
+msgid "Enter the booking subject for the purchase receipt email."
+msgstr "Adja meg a vásárlást visszaigazoló e-mail foglalási tárgyát."
+
+#: includes/backend/settings/sub-tabs/book_notification.php:15
+msgid "Book Notification:"
+msgstr "Foglalási értesítés:"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:17
+#: includes/class-wp-travel-engine-mail.php:222
+msgid "Dear Admin,"
+msgstr "Kedves Adminisztrátor!"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:18
+#: includes/class-wp-travel-engine-mail.php:223
+msgid "The following booking has been successfully made."
+msgstr "Az alábbi foglalás történt:"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:19
+#: includes/class-wp-travel-engine-mail.php:224
+msgid "Trip Name : {trip_url}"
+msgstr "Út neve: {trip_url}"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:20
+#: includes/class-wp-travel-engine-mail.php:225
+msgid "Trip Cost:  {price}"
+msgstr "Út ára:  {price}"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:21
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:31
+#: includes/class-wp-travel-engine-mail.php:120
+#: includes/class-wp-travel-engine-mail.php:226
+msgid "Trip Start Date : {tdate}"
+msgstr "Út kezdő dátuma: {tdate}"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:22
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:32
+#: includes/class-wp-travel-engine-mail.php:121
+#: includes/class-wp-travel-engine-mail.php:227
+msgid "Total Number of Traveler(s): {traveler}"
+msgstr "Utazók összlétszáma: {traveler}"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:23
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:33
+#: includes/class-wp-travel-engine-mail.php:122
+#: includes/class-wp-travel-engine-mail.php:229
+msgid "Total Cost: {price}"
+msgstr "Teljes ár: {price}"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:24
+#: includes/class-wp-travel-engine-mail.php:228
+msgid "Trip Booking URL: {booking_url}"
+msgstr "Út foglalásának webcíme: {booking_url}"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:25
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:34
+#: includes/class-wp-travel-engine-mail.php:123
+#: includes/class-wp-travel-engine-mail.php:230
+msgid "Thank you."
+msgstr "Köszönjük!"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:26
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:35
+#: includes/class-wp-travel-engine-mail.php:124
+#: includes/class-wp-travel-engine-mail.php:231
+msgid "Best regards,"
+msgstr "Üdvözlettel:"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:39
+msgid "Enter the text that is sent as sale notification email after completion of a purchase. HTML is accepted. Available template tags:"
+msgstr "Adja meg a vásárlás befejezését követően az eladásról értesítő e-mail szövegét. HTML-kód használható. Rendelkezésre álló sabloncímkék:"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:41
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:49
+msgid "{trip_url} - The trip URL for each booked trip"
+msgstr "{trip_url} – Az egyes lefoglalt utak webcíme (URL)"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:42
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:50
+msgid "{name} - The buyer's first name"
+msgstr "{name} – A vásárló keresztneve"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:43
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:51
+msgid "{fullname} - The buyer's full name, first and last"
+msgstr "{fullname} – A vásárló teljes neve (keresztnév és családnév)"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:44
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:52
+msgid "{user_email} - The buyer's email address"
+msgstr "{user_email} – A vásárló e-mail címe"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:45
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:53
+msgid "{billing_address} - The buyer's billing address"
+msgstr "{billing_address} – A vásárló számlázási címe"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:46
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:54
+msgid "{tdate} - The starting date of the trip"
+msgstr "{tdate} – Az út kezdő dátuma"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:47
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:55
+msgid "{traveler} - The total number of traveler(s)"
+msgstr "{traveler} – Az utazók teljes létszáma"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:48
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:56
+msgid "{tprice} - The trip price"
+msgstr "{tprice} – Az út ára"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:49
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:57
+msgid "{price} - The total price of the booking"
+msgstr "{price} – A foglalás teljes ára"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:50
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:58
+msgid "{sitename} - Your site name"
+msgstr "{sitename} – Az Ön weboldalának neve"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:51
+msgid "{booking_url} - The trip booking link"
+msgstr "{booking_url} – Az út lefoglalásának linkje"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:52
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:59
+msgid "{ip_address} - The buyer's IP Address"
+msgstr "{ip_address} – A vásárló számítógépének IP-címe"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:57
+msgid "Sale Notification Emails:"
+msgstr "Eladásról értesítő e-mailek:"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:66
+msgid "Enter the email address(es) that should receive a notification anytime a sale is made, separated by comma (,) and no spaces."
+msgstr "Adja meg az(oka)t az e-mail cím(ek)et, amelyekre eladás esetén értesítést kell küldeni. (Az e-mail címeket vessző (,) válassza el, szóköz nélkül.)"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:69
+msgid "Disable Admin Notifications:"
+msgstr "Adminisztrátor értesítésének kikapcsolása:"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:72
+msgid "Check this box if you do not want to receive sales notification emails."
+msgstr "Jelölje be ezt a rubrikát, ha nem kíván eladásról értesítő e-mailt kapni."
+
+#: includes/backend/settings/sub-tabs/email_settings.php:6
+msgid "Email Template:"
+msgstr "E-mail sablon:"
+
+#: includes/backend/settings/sub-tabs/email_settings.php:7
+msgid "Choose a template type&hellip;"
+msgstr "Sablontípus kiválasztása&hellip;"
+
+#: includes/backend/settings/sub-tabs/email_settings.php:21
+msgid "Choose a template. Click \"Save Changes\" then \"Preview Purchase Receipt\" to see the new template."
+msgstr "Válasszon ki egy sablont. Az új sablon megtekintéséhez kattintson a „Módosítások mentése”-re, majd a „Vásárlásról szóló visszaigazolás előnézete”-re."
+
+#: includes/backend/settings/sub-tabs/page_settings.php:4
+msgid "Checkout:"
+msgstr "Megrendelés:"
+
+#: includes/backend/settings/sub-tabs/page_settings.php:18
+msgid "This is the checkout page where buyers will complete their order. The [WP_TRAVEL_ENGINE_PLACE_ORDER] shortcode must be on this page."
+msgstr "Ez a megrendelő oldal, ahol a vásárló leadja a megrendelését. Az oldalon szerepelnie kell a [WP_TRAVEL_ENGINE_PLACE_ORDER] kódnak."
+
+#: includes/backend/settings/sub-tabs/page_settings.php:21
+msgid "Terms and Conditions:"
+msgstr "Szerződési feltételek:"
+
+#: includes/backend/settings/sub-tabs/page_settings.php:34
+msgid "This is the terms and conditions page where trip bookers will see the terms and conditions for booking."
+msgstr "Ez a szerződési feltételeket (ÁSZF) tartalmazó oldal, ahol az utat foglalók láthatják a foglalás feltételeit."
+
+#: includes/backend/settings/sub-tabs/page_settings.php:37
+msgid "Thank You:"
+msgstr "Köszönet:"
+
+#: includes/backend/settings/sub-tabs/page_settings.php:50
+msgid "This is the thank you page where trip bookers will get the payment confirmation message. The [WP_TRAVEL_ENGINE_THANK_YOU] shortcode must be on this page."
+msgstr "Ez a megköszönő oldal, amelyen az utat foglalók megkapják a fizetést megerősítő üzenetet. Az oldalon szerepelnie kell a [WP_TRAVEL_ENGINE_THANK_YOU] kódnak."
+
+#: includes/backend/settings/sub-tabs/page_settings.php:54
+msgid "Confirmation Page:"
+msgstr "Megerősítő oldal:"
+
+#: includes/backend/settings/sub-tabs/page_settings.php:67
+msgid "This is the confirmation page where trip bookers will fill the full form of the travelers. The [WP_TRAVEL_ENGINE_BOOK_CONFIRMATION] shortcode must be on this page."
+msgstr "Ez a megerősítő oldal, amelyen az utat foglalók ki fogják tölteni az utazókra vonatkozó teljes űrlapot. Az oldalon szerepelnie kell a [WP_TRAVEL_ENGINE_BOOK_CONFIRMATION] kódnak."
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:5
+msgid "From Name:"
+msgstr "Feladó neve:"
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:9
+msgid "Enter the name the purchase receipts are sent from. This should probably be your site or shop name."
+msgstr "Adja meg azt a nevet, amelytől a vásárlás visszaigazolása el lesz küldve. Ez valószínűleg a weboldal vagy az üzlet neve."
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:12
+msgid "From Email:"
+msgstr "Feladó e-mail címe:"
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:15
+msgid "Enter the email address from which the purchase receipts will be sent. This will act as the \"from\" and \"reply-to\" address."
+msgstr "Adja meg azt az e-mail címet, amelyről a vásárlás visszaigazolása el lesz küldve. Ez lesz a feladtó („from”) és a válaszcím („reply-to”) cím."
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:18
+msgid "Purchase Email Subject:"
+msgstr "Vásárlási e-mail tárgya:"
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:21
+msgid "Enter the subject line for the purchase receipt email."
+msgstr "Adja meg a vásárlást visszaigazoló e-mail tárgysorát."
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:24
+msgid "Purchase Receipt:"
+msgstr "Vásárlás visszaigazolása:"
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:26
+#: includes/class-wp-travel-engine-mail.php:115
+msgid "Dear {name},"
+msgstr "Kedves {name}!"
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:27
+#: includes/class-wp-travel-engine-mail.php:116
+msgid "You have successfully made the trip booking. Your booking information is below."
+msgstr "Az utat sikeresen lefoglalta; ennek részleteit az alábbiakban megtalálja."
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:29
+#: includes/class-wp-travel-engine-mail.php:118
+msgid "Trip Name: {trip_url}"
+msgstr "Út neve: {trip_url}"
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:30
+#: includes/class-wp-travel-engine-mail.php:119
+msgid "Trip Cost: {tprice}"
+msgstr "Út ára:  {tprice}"
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:47
+msgid "Enter the text that is sent as purchase receipt email to users after completion of a successful purchase. HTML is accepted. Available template tags:"
+msgstr "Adja meg a vásárlás sikeres befejezését követően a vásárlást a felhasználó számára visszaigazoló e-mail szövegét. HTML-kód használható. Rendelkezésre álló sabloncímkék:"
+
+#: includes/backend/settings/sub-tabs/tabs_settings.php:55
+msgid "Press \"Add Tab\" to add Tabs..."
+msgstr "Újabb fülek hozzáadásához kattintson a „Fül hozzáadása” feliratra…"
+
+#: includes/backend/settings/sub-tabs/trip_info.php:20
+msgid "Field Name is the unique id of the input field."
+msgstr "A mező neve a beviteli mező egyedi azonosítója."
+
+#: includes/backend/settings/sub-tabs/trip_info.php:59
+msgid "Press \"Add Field\" to add input fields..."
+msgstr "Beviteli mező hozzáadásához nyomja meg a „Mező hozzáadása” gombot…"
+
+#: includes/backend/submenu/extensions.php:2
+msgid "Extensions"
+msgstr "Kiterjesztések"
+
+#: includes/backend/submenu/extensions.php:7
+#: includes/backend/submenu/extensions.php:96
+msgid "View All Extensions"
+msgstr "Az összes kiterjesztés megtekintése"
+
+#: includes/backend/submenu/extensions.php:10
+msgid "These extensions add functionality to your travel booking website."
+msgstr "Ezek a kiterjesztések további funkciókat adnak az utazásfoglalással foglalkozó weboldalához."
+
+#: includes/backend/submenu/extensions.php:14
+msgid "Trip Fixed Starting Dates"
+msgstr "Trip Fixed Starting Dates"
+
+#: includes/backend/submenu/extensions.php:18
+msgid "This extension allows travel agencies and tour operators to show trip fixed starting dates and number of space available for booking."
+msgstr "Az utazási irodák és az utazásszervezők ezzel a kiterjesztéssel megjeleníthetik az útjaik indulásának időpontját és azt, hogy még hány foglalható szabad hely van az úton."
+
+#: includes/backend/submenu/extensions.php:19
+#: includes/backend/submenu/extensions.php:28
+#: includes/backend/submenu/extensions.php:37
+#: includes/backend/submenu/extensions.php:46
+#: includes/backend/submenu/extensions.php:55
+#: includes/backend/submenu/extensions.php:64
+#: includes/backend/submenu/extensions.php:73
+#: includes/backend/submenu/extensions.php:82
+#: includes/backend/submenu/extensions.php:91
+msgid "Get the Extension!"
+msgstr "Kiterjesztés beszerzése"
+
+#: includes/backend/submenu/extensions.php:23
+#: includes/class-wp-travel-engine-archive-hooks.php:131
+#: includes/templates/taxonomy-activities.php:115
+#: includes/templates/taxonomy-activities.php:316
+#: includes/templates/taxonomy-activities.php:538
+#: includes/templates/taxonomy-destination.php:166
+#: includes/templates/taxonomy-destination.php:368
+#: includes/templates/taxonomy-destination.php:578
+#: includes/templates/taxonomy-trip_types.php:114
+#: includes/templates/taxonomy-trip_types.php:314
+#: includes/templates/taxonomy-trip_types.php:535
+#: includes/templates/template-trip-listing.php:89
+#: public/class-wp-travel-engine-public.php:541
+#: public/class-wp-travel-engine-public.php:815
+msgid "Group Discount"
+msgstr "Csoportos kedvezmény"
+
+#: includes/backend/submenu/extensions.php:27
+msgid "This extension allows travel agencies and tour operators to give group discount to their customers."
+msgstr "Az utazási irodák és az utazásszervezők ezzel a kiterjesztéssel csoportos kedvezményt adhatnak ügyfeleiknek."
+
+#: includes/backend/submenu/extensions.php:32
+#: includes/backend/submenu/extensions.php:86
+msgid "Trip Search"
+msgstr "Trip Search"
+
+#: includes/backend/submenu/extensions.php:36
+msgid "This extension adds an advanced trip search feature providing different search filters."
+msgstr "Ez a kiterjesztés speciális útkereső funkciót és különböző keresőszűrőket tartalmaz."
+
+#: includes/backend/submenu/extensions.php:41
+msgid "Stripe Payment Gateway"
+msgstr "Stripe Payment Gateway"
+
+#: includes/backend/submenu/extensions.php:45
+msgid "An extension of WP Travel Engine plugin to accept payment directly on your website through your Stripe account."
+msgstr "A WP Travel Engine bővítmény kiterjesztése, amellyel közvetlenül weboldalán fogadhat fizetéseket Stripe fiókja segítségével."
+
+#: includes/backend/submenu/extensions.php:50
+msgid "Authorize.net Payment Gateway"
+msgstr "Authorize.net Payment Gateway"
+
+#: includes/backend/submenu/extensions.php:54
+msgid "An extension of WP Travel Engine plugin to accept payment directly on your website through your Authorize.net account."
+msgstr "A WP Travel Engine bővítmény kiterjesztése, amellyel közvetlenül weboldalán fogadhat fizetéseket Authorize.net fiókja segítségével."
+
+#: includes/backend/submenu/extensions.php:59
+msgid "PayU Payment Gateway"
+msgstr "PayU Payment Gateway"
+
+#: includes/backend/submenu/extensions.php:63
+msgid "An extension of WP Travel Engine plugin to accept payment directly on your website through your PayU account."
+msgstr "A WP Travel Engine bővítmény kiterjesztése, amellyel közvetlenül weboldalán fogadhat fizetéseket PayU fiókja segítségével."
+
+#: includes/backend/submenu/extensions.php:68
+msgid "PayFast Payment Gateway"
+msgstr "PayFast Payment Gateway"
+
+#: includes/backend/submenu/extensions.php:72
+msgid "An extension of WP Travel Engine plugin to accept payment directly on your website through your PayFast account."
+msgstr "A WP Travel Engine bővítmény kiterjesztése, amellyel közvetlenül weboldalán fogadhat fizetéseket PayFast fiókja segítségével."
+
+#: includes/backend/submenu/extensions.php:77
+msgid "Partial Payment"
+msgstr "Partial Payment"
+
+#: includes/backend/submenu/extensions.php:81
+msgid "An extension of WP Travel Engine plugin to accept partial payment on booking based on percentage or fixed amount."
+msgstr "A WP Travel Engine bővítmény kiterjesztése, amely bizonyos százaléknyi vagy rögzített összegnyi fizetést tesz lehetővé a foglalásokra."
+
+#: includes/backend/submenu/extensions.php:90
+msgid "An extension of WP Travel Engine plugin to search trips based on multiple filters and options to make trip search easy for the visitors."
+msgstr "A WP Travel Engine bővítmény kiterjesztése, amelynek segítségével a látogatók számos szűrő és beállítás segítségével könnyedén kereshetnek utakat."
+
+#: includes/backend/submenu/themes.php:2
+msgid "Themes"
+msgstr "Sablonok"
+
+#: includes/backend/submenu/themes.php:5
+msgid "WordPress themes compatible with WP Travel Engine plugin."
+msgstr "A WP Travel Engine bővítménnyel kompatibilis sablonok."
+
+#: includes/backend/submenu/themes.php:8
+msgid "Travel Agency Pro"
+msgstr ""
+
+#: includes/backend/submenu/themes.php:12
+msgid "Travel Agency Pro is a premium WordPress theme to create travel booking website for tour and travel companies."
+msgstr ""
+
+#: includes/backend/submenu/themes.php:13
+#: includes/backend/submenu/themes.php:21
+msgid "Get this Theme!"
+msgstr ""
+
+#: includes/backend/submenu/themes.php:16
+msgid "Travel Agency"
+msgstr ""
+
+#: includes/backend/submenu/themes.php:20
+msgid "Travel Agency is a free WordPress theme to create travel online booking website for tour and travel operators and companies."
+msgstr ""
+
+#: includes/backend/vendor/gallery.php:29
+msgid "Enable Gallery"
+msgstr "Galéria megjelenítése"
+
+#: includes/backend/vendor/gallery.php:31
+msgid "Check this to enable gallery instead of featured image in single trip."
+msgstr "Jelölje be, ha egy útnál a kiemelt kép helyett egy galériát szeretne megjeleníteni."
+
+#: includes/backend/vendor/gallery.php:34
+msgid "Add image(s)"
+msgstr "Kép(ek) hozzáadása"
+
+#: includes/backend/vendor/gallery.php:41
+msgid "Remove image"
+msgstr "Kép eltávolítása"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:53
+msgid "Trips"
+msgstr "Utak"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:131
+#: includes/templates/taxonomy-activities.php:115
+#: includes/templates/taxonomy-activities.php:316
+#: includes/templates/taxonomy-activities.php:538
+#: includes/templates/taxonomy-destination.php:166
+#: includes/templates/taxonomy-destination.php:368
+#: includes/templates/taxonomy-destination.php:578
+#: includes/templates/taxonomy-trip_types.php:114
+#: includes/templates/taxonomy-trip_types.php:314
+#: includes/templates/taxonomy-trip_types.php:535
+#: includes/templates/template-trip-listing.php:89
+#: public/class-wp-travel-engine-public.php:541
+#: public/class-wp-travel-engine-public.php:815
+msgid "You have group discount in this trip."
+msgstr "Ezen az úton csoportos kedvezmény is van."
+
+#: includes/class-wp-travel-engine-archive-hooks.php:184
+#: includes/frontend/trip-meta/trip-meta-parts/trip-facts-shortcode.php:79
+#: includes/frontend/trip-meta/trip-meta-parts/trip-facts.php:78
+#: includes/templates/taxonomy-activities.php:168
+#: includes/templates/taxonomy-activities.php:369
+#: includes/templates/taxonomy-activities.php:591
+#: includes/templates/taxonomy-destination.php:219
+#: includes/templates/taxonomy-destination.php:421
+#: includes/templates/taxonomy-destination.php:631
+#: includes/templates/taxonomy-trip_types.php:167
+#: includes/templates/taxonomy-trip_types.php:367
+#: includes/templates/taxonomy-trip_types.php:588
+#: includes/templates/template-trip-listing.php:142
+#: public/class-wp-travel-engine-public.php:594
+#: public/class-wp-travel-engine-public.php:868
+msgid " days"
+msgstr " nap"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:184
+#: includes/frontend/trip-meta/trip-meta-parts/trip-facts-shortcode.php:79
+#: includes/frontend/trip-meta/trip-meta-parts/trip-facts.php:78
+#: includes/templates/taxonomy-activities.php:168
+#: includes/templates/taxonomy-activities.php:369
+#: includes/templates/taxonomy-activities.php:591
+#: includes/templates/taxonomy-destination.php:219
+#: includes/templates/taxonomy-destination.php:421
+#: includes/templates/taxonomy-destination.php:631
+#: includes/templates/taxonomy-trip_types.php:167
+#: includes/templates/taxonomy-trip_types.php:367
+#: includes/templates/taxonomy-trip_types.php:588
+#: includes/templates/template-trip-listing.php:142
+#: public/class-wp-travel-engine-public.php:594
+#: public/class-wp-travel-engine-public.php:868
+msgid " day"
+msgstr " nap"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:193
+#: includes/templates/taxonomy-activities.php:177
+#: includes/templates/taxonomy-activities.php:378
+#: includes/templates/taxonomy-activities.php:600
+#: includes/templates/taxonomy-destination.php:228
+#: includes/templates/taxonomy-destination.php:430
+#: includes/templates/taxonomy-destination.php:640
+#: includes/templates/taxonomy-trip_types.php:176
+#: includes/templates/taxonomy-trip_types.php:376
+#: includes/templates/taxonomy-trip_types.php:597
+#: includes/templates/template-trip-listing.php:151
+#: public/class-wp-travel-engine-public.php:603
+#: public/class-wp-travel-engine-public.php:877
+msgid "Next Departure"
+msgstr "Következő indulás"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:218
+#: includes/templates/taxonomy-activities.php:203
+#: includes/templates/taxonomy-activities.php:404
+#: includes/templates/taxonomy-activities.php:626
+#: includes/templates/taxonomy-destination.php:254
+#: includes/templates/taxonomy-destination.php:456
+#: includes/templates/taxonomy-destination.php:666
+#: includes/templates/taxonomy-trip_types.php:202
+#: includes/templates/taxonomy-trip_types.php:402
+#: includes/templates/taxonomy-trip_types.php:622
+#: includes/templates/template-trip-listing.php:176
+#: public/class-wp-travel-engine-public.php:629
+#: public/class-wp-travel-engine-public.php:903
+msgid "spaces left"
+msgstr "hely van még"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:218
+#: includes/templates/taxonomy-activities.php:203
+#: includes/templates/taxonomy-activities.php:404
+#: includes/templates/taxonomy-activities.php:626
+#: includes/templates/template-trip-listing.php:176
+#: public/class-wp-travel-engine-public.php:629
+#: public/class-wp-travel-engine-public.php:903
+msgid "0 space left"
+msgstr "betelt"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:234
+#: includes/templates/taxonomy-activities.php:219
+#: includes/templates/taxonomy-activities.php:420
+#: includes/templates/taxonomy-activities.php:642
+#: includes/templates/taxonomy-destination.php:270
+#: includes/templates/taxonomy-destination.php:472
+#: includes/templates/taxonomy-destination.php:682
+#: includes/templates/taxonomy-trip_types.php:218
+#: includes/templates/taxonomy-trip_types.php:418
+#: includes/templates/taxonomy-trip_types.php:638
+#: includes/templates/template-trip-listing.php:192
+msgid "View Details"
+msgstr "Részletek megtekintése"
+
+#: includes/class-wp-travel-engine-confirmation.php:29
+#: includes/class-wp-travel-engine-thank-you.php:44
+#: includes/class-wp-travel-engine-thank-you.php:150
+msgid "Sorry, you may not have confirmed your booking. Please fill up the form and confirm your booking. Thank you."
+msgstr "Úgy tűnik, nem erősítette meg foglalását. Kérjük, töltse ki az űrlapot, és erősítse meg foglalását. Köszönjük!"
+
+#: includes/class-wp-travel-engine-confirmation.php:395
+#: includes/class-wp-travel-engine-confirmation.php:676
+msgid "There was an error on update."
+msgstr "Hiba történt a frissítéskor."
+
+#: includes/class-wp-travel-engine-confirmation.php:605
+msgid "GP confirmation "
+msgstr " "
+
+#: includes/class-wp-travel-engine-confirmation.php:613
+msgid "Disclaimer "
+msgstr "Jogi nyilatkozat "
+
+#: includes/class-wp-travel-engine-confirmation.php:624
+#: includes/templates/order-form-template.php:277
+msgid "Confirm Booking"
+msgstr "Foglalás megerősítése"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:37
+msgid "You can send your enquiry via the form below."
+msgstr "Az alábbi űrlapon felteheti kérdését"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:43
+msgid "Package name:"
+msgstr "Csomag neve:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:53
+msgid "Your name:"
+msgstr "Név:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:55
+msgid "Enter Your Name"
+msgstr "Adja meg a nevét"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:61
+msgid "Your email:"
+msgstr "E-mail:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:63
+msgid "Enter Your Email"
+msgstr "Adja meg az e-mail címét"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:81
+msgid "Contact No.:"
+msgstr "Telefonszám:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:83
+#: includes/class-wp-travel-engine-functions.php:1055
+msgid "Enter Your Contact Number"
+msgstr "Adja meg a telefonszámát"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:97
+msgid "Adults:"
+msgstr "Felnőtt:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:99
+#: includes/class-wp-travel-engine-functions.php:1061
+msgid "Enter Number of Adults"
+msgstr "Adja meg a felnőttek számát"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:113
+msgid "Children:"
+msgstr "Gyermek:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:115
+#: includes/class-wp-travel-engine-functions.php:1067
+msgid "Enter Number of Children"
+msgstr "Adja meg a gyermekek számát"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:131
+msgid "Your message:"
+msgstr "Az Ön üzenete:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:133
+#: includes/class-wp-travel-engine-functions.php:1071
+msgid "Your Message"
+msgstr "Az Ön üzenete"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:151
+#: includes/class-wp-travel-engine-functions.php:1049
+msgid "Choose a country&hellip;"
+msgstr "Ország kiválasztása&hellip;"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:217
+msgid "Privacy Policy"
+msgstr "Adatvédelmi irányelvek"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:285
+msgid "Send email"
+msgstr "E-mail elküldése"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:402
+msgid "Name: "
+msgstr "Név: "
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:404
+msgid "Country: "
+msgstr "Ország: "
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:406
+msgid "Trip: "
+msgstr "Út: "
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:410
+msgid "Contact: "
+msgstr "Telefon: "
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:412
+msgid "IP Address: "
+msgstr "IP-cím "
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:414
+msgid "Adult: "
+msgstr "Felnőtt: "
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:416
+msgid "Children: "
+msgstr "Gyermek: "
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:418
+msgid "Message: "
+msgstr "Üzenet: "
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:532
+msgid "Your query has been successfully sent. Thank You."
+msgstr "Üzenete sikeresen elküldetett. Köszönjük!"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:556
+msgid "Sorry, your query could not be sent at the moment. May be try again later. Thank You."
+msgstr "Elnézést, üzenetét pillanatnyilag sajnos nem sikerült elküldeni. Próbálja meg később. Köszönjük!"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:576
+msgid "Confirmation failed, please try again. Thank You."
+msgstr "A megerősítés sikertelen, kérjük, próbálja meg újra. Köszönjük!"
+
+#: includes/class-wp-travel-engine-functions.php:150
+msgid "« Previous"
+msgstr "« Előző"
+
+#: includes/class-wp-travel-engine-functions.php:151
+msgid "Next »"
+msgstr "Következő »"
+
+#: includes/class-wp-travel-engine-functions.php:170
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:171
+msgid "Afghan afghani"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:172
+msgid "Albanian lek"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:173
+msgid "Armenian dram"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:174
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:175
+msgid "Angolan kwanza"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:176
+msgid "Argentine peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:177
+msgid "Australian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:178
+msgid "Aruban florin"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:179
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:180
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:181
+msgid "Barbadian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:182
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:183
+msgid "Bulgarian lev"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:184
+msgid "Bahraini dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:185
+msgid "Burundian franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:186
+msgid "Bermudian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:187
+msgid "Brunei dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:188
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:189
+msgid "Brazilian real"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:190
+msgid "Bahamian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:191
+msgid "Bitcoin"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:192
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:193
+msgid "Botswana pula"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:194
+msgid "Belarusian ruble (old)"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:195
+msgid "Belarusian ruble"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:196
+msgid "Belize dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:197
+msgid "Canadian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:198
+msgid "Congolese franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:199
+msgid "Swiss franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:200
+msgid "Chilean peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:201
+msgid "Chinese yuan"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:202
+msgid "Colombian peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:203
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:204
+msgid "Cuban convertible peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:205
+msgid "Cuban peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:206
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:207
+msgid "Czech koruna"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:208
+msgid "Djiboutian franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:209
+msgid "Danish krone"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:210
+msgid "Dominican peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:211
+msgid "Algerian dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:212
+msgid "Egyptian pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:213
+msgid "Eritrean nakfa"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:214
+msgid "Ethiopian birr"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:215
+msgid "Euro"
+msgstr "Euró"
+
+#: includes/class-wp-travel-engine-functions.php:216
+msgid "Fijian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:217
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:218
+msgid "Pound sterling"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:219
+msgid "Georgian lari"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:220
+msgid "Guernsey pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:221
+msgid "Ghana cedi"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:222
+msgid "Gibraltar pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:223
+msgid "Gambian dalasi"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:224
+msgid "Guinean franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:225
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:226
+msgid "Guyanese dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:227
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:228
+msgid "Honduran lempira"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:229
+msgid "Croatian kuna"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:230
+msgid "Haitian gourde"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:231
+msgid "Hungarian forint"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:232
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:233
+msgid "Israeli new shekel"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:234
+msgid "Manx pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:235
+msgid "Indian rupee"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:236
+msgid "Iraqi dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:237
+msgid "Iranian rial"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:238
+msgid "Iranian toman"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:239
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:240
+msgid "Jersey pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:241
+msgid "Jamaican dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:242
+msgid "Jordanian dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:243
+msgid "Japanese yen"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:244
+msgid "Kenyan shilling"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:245
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:246
+msgid "Cambodian riel"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:247
+msgid "Comorian franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:248
+msgid "North Korean won"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:249
+msgid "South Korean won"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:250
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:251
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:252
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:253
+msgid "Lao kip"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:254
+msgid "Lebanese pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:255
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:256
+msgid "Liberian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:257
+msgid "Lesotho loti"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:258
+msgid "Libyan dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:259
+msgid "Moroccan dirham"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:260
+msgid "Moldovan leu"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:261
+msgid "Malagasy ariary"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:262
+msgid "Macedonian denar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:263
+msgid "Burmese kyat"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:264
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:265
+msgid "Macanese pataca"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:266
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:267
+msgid "Mauritian rupee"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:268
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:269
+msgid "Malawian kwacha"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:270
+msgid "Mexican peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:271
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:272
+msgid "Mozambican metical"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:273
+msgid "Namibian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:274
+msgid "Nigerian naira"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:275
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:276
+msgid "Norwegian krone"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:277
+msgid "Nepalese rupee"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:278
+msgid "New Zealand dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:279
+msgid "Omani rial"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:280
+msgid "Panamanian balboa"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:281
+msgid "Peruvian nuevo sol"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:282
+msgid "Papua New Guinean kina"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:283
+msgid "Philippine peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:284
+msgid "Pakistani rupee"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:285
+msgid "Polish z&#x142;oty"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:286
+msgid "Transnistrian ruble"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:287
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:288
+msgid "Qatari riyal"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:289
+msgid "Romanian leu"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:290
+msgid "Serbian dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:291
+msgid "Russian ruble"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:292
+msgid "Rwandan franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:293
+msgid "Saudi riyal"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:294
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:295
+msgid "Seychellois rupee"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:296
+msgid "Sudanese pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:297
+msgid "Swedish krona"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:298
+msgid "Singapore dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:299
+msgid "Saint Helena pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:300
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:301
+msgid "Somali shilling"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:302
+msgid "Surinamese dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:303
+msgid "South Sudanese pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:304
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:305
+msgid "Syrian pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:306
+msgid "Swazi lilangeni"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:307
+msgid "Thai baht"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:308
+msgid "Tajikistani somoni"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:309
+msgid "Turkmenistan manat"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:310
+msgid "Tunisian dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:311
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:312
+msgid "Turkish lira"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:313
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:314
+msgid "New Taiwan dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:315
+msgid "Tanzanian shilling"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:316
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:317
+msgid "Ugandan shilling"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:318
+msgid "United States dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:319
+msgid "Uruguayan peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:320
+msgid "Uzbekistani som"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:321
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:322
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:323
+msgid "Vanuatu vatu"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:324
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:325
+msgid "Central African CFA franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:326
+msgid "East Caribbean dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:327
+msgid "West African CFA franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:328
+msgid "CFP franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:329
+msgid "Yemeni rial"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:330
+msgid "South African rand"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:331
+msgid "Zambian kwacha"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:1053
+msgid "Contact No."
+msgstr "Telefonszám"
+
+#: includes/class-wp-travel-engine-functions.php:1059
+msgid "Adults"
+msgstr "Felnőttek"
+
+#: includes/class-wp-travel-engine-functions.php:1065
+msgid "Children"
+msgstr "Gyermekek"
+
+#: includes/class-wp-travel-engine-functions.php:1073
+msgid "Enter Your message"
+msgstr "Adja meg az üzenetét"
+
+#: includes/class-wp-travel-engine-mail.php:19
+msgid "Booking Confirmation"
+msgstr "Foglalás megerősítése"
+
+#: includes/class-wp-travel-engine-order-meta.php:36
+#: includes/class-wp-travel-engine-order-meta.php:161
+msgid "Customer Details"
+msgstr "Ügyfél adatai"
+
+#: includes/class-wp-travel-engine-order-meta.php:78
+msgid "Booking Address"
+msgstr "Foglalási cím"
+
+#: includes/class-wp-travel-engine-order-meta.php:203
+msgid "Customer History"
+msgstr "Ügyfél korábbi tevékenységei"
+
+#: includes/class-wp-travel-engine-place-order.php:36
+msgid "Sorry, you may not have selected the number of travelers for the trip. Please select number of travelers and confirm your booking. Thank you."
+msgstr "Elnézést, úgy tűnik, nem jelölte meg az utazók létszámát. Kérjük, adja meg az utazók számát és erősítse meg a foglalást. Köszönjük!"
+
+#: includes/class-wp-travel-engine-settings.php:42
+msgid "Your settings have been saved."
+msgstr "Beállításai el lettek mentve."
+
+#: includes/class-wp-travel-engine-taxonomy-thumb.php:48
+#: includes/class-wp-travel-engine-taxonomy-thumb.php:77
+msgid "Image"
+msgstr "Kép"
+
+#: includes/class-wp-travel-engine-taxonomy-thumb.php:52
+#: includes/class-wp-travel-engine-taxonomy-thumb.php:88
+msgid "Add Image"
+msgstr "Kép hozzáadása"
+
+#: includes/class-wp-travel-engine-taxonomy-thumb.php:53
+#: includes/class-wp-travel-engine-taxonomy-thumb.php:89
+msgid "Remove Image"
+msgstr "Kép eltávolítása"
+
+#: includes/class-wp-travel-engine-thank-you.php:72
+#: includes/class-wp-travel-engine-thank-you.php:165
+msgid "Thank you for booking the trip. Please check your email for confirmation."
+msgstr "Köszönjük, hogy jelentkezett az útra. Kérjük, olvassa el a megerősítő üzenetet az e-mail fiókjában."
+
+#: includes/class-wp-travel-engine-thank-you.php:73
+#: includes/class-wp-travel-engine-thank-you.php:166
+msgid " Below is your booking detail:"
+msgstr " Foglalásának részletei:"
+
+#: includes/class-wp-travel-engine-thank-you.php:79
+#: includes/class-wp-travel-engine-thank-you.php:172
+msgid "Trip Details:"
+msgstr "Út adatai:"
+
+#: includes/class-wp-travel-engine-thank-you.php:82
+#: includes/class-wp-travel-engine-thank-you.php:175
+msgid "Trip ID:"
+msgstr "Út azonosítója:"
+
+#: includes/class-wp-travel-engine-thank-you.php:83
+#: includes/class-wp-travel-engine-thank-you.php:176
+msgid "Trip Name:"
+msgstr "Út neve:"
+
+#: includes/class-wp-travel-engine-thank-you.php:86
+#: includes/class-wp-travel-engine-thank-you.php:179
+msgid "Total Paid:"
+msgstr "Összesen fizetve:"
+
+#: includes/class-wp-travel-engine-thank-you.php:90
+#: includes/class-wp-travel-engine-thank-you.php:183
+msgid "Total Cost:"
+msgstr "Teljes ár:"
+
+#: includes/class-wp-travel-engine-thank-you.php:92
+msgid "Remaining Payment:"
+msgstr "Fennmaradó összeg:"
+
+#: includes/class-wp-travel-engine-thank-you.php:93
+#: includes/class-wp-travel-engine-thank-you.php:186
+msgid "Trip Start Date:"
+msgstr "Út kezdő dátuma:"
+
+#: includes/class-wp-travel-engine-thank-you.php:94
+#: includes/class-wp-travel-engine-thank-you.php:187
+msgid "Number of Traveler(s):"
+msgstr "Utazók száma:"
+
+#: includes/class-wte-widget-area-admin.php:10
+msgid "WP Travel Engine Sidebar"
+msgstr "WP Travel Engine oldalsáv"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-facts-shortcode.php:30
+#: includes/frontend/trip-meta/trip-meta-parts/trip-facts.php:27
+msgid "Trip Facts"
+msgstr "Útinformációk"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:17
+msgid "Price From"
+msgstr "Foglalási lehetőség"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:80
+msgid "Number of Adult Travelers: "
+msgstr "Felnőtt utazók száma: "
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:90
+#: public/class-wp-travel-engine-public.php:274
+msgid "Pick a date"
+msgstr "Dátum kiválasztása"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:94
+msgid "Cost Per Adult Traveler: "
+msgstr "Ár / utazó felnőtt "
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:95
+msgid "Cost Per Child Traveler: "
+msgstr "Ár / utazó gyermek "
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:106
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:112
+msgid "Total"
+msgstr "Összesen"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:125
+msgid "Check Availability"
+msgstr "Szabad helyek és időpontok keresése"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:127
+msgid "Book Now"
+msgstr "Foglalás most"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-tabs.php:23
+#: public/class-wp-travel-engine-public.php:287
+msgid " Days"
+msgstr " Nap"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-tabs.php:27
+#: public/class-wp-travel-engine-public.php:287
+msgid " Day"
+msgstr " Nap"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-tabs.php:311
+msgid "Day "
+msgstr "Nap "
+
+#. translators: %s: id of current post
+#: includes/frontend/trip-meta/trip-meta-parts/trip-tabs.php:490
+msgid ""
+"Edit\r\n"
+"                    <span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+"Szerkesztés\r\n"
+"                    <span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: includes/privacy-functions.php:42
+msgid "Customer for %s has been anonymized."
+msgstr "A(z) %s esetében az ügyfél anonimizáltatott."
+
+#: includes/privacy-functions.php:53
+msgid ""
+"\r\n"
+"\tWe collect information about you during the checkout process on our store. This information may include, but is not limited to, your name, billing address, shipping address, email address, phone number, credit card/payment details and any other details that might be requested from you for the purpose of processing your orders.\r\n"
+"\tHandling this data also allows us to:\r\n"
+"\t- Send you important account/order/service information.\r\n"
+"\t- Respond to your queries, refund requests, or complaints.\r\n"
+"\t- Process payments and to prevent fraudulent transactions. We do this on the basis of our legitimate business interests.\r\n"
+"\t- Set up and administer your account, provide technical and/or customer support, and to verify your identity.\r\n"
+"\t"
+msgstr ""
+"\r\n"
+"\tAz út megrendelése során gyűjtött adatait megőrizzük. Ilyen adat többek között az Ön neve, számlázási és szállítási címe, e-mail címe, telefonszáma, hitelkártya- vagy más fizetési adatai és mindazok az adatok, amelyeket rendelésének feldolgozása érdekében esetlegesen Öntől kérünk.\r\n"
+"\tEzeknek az adatoknak a kezelése lehetővé teszi számunkra, hogy\r\n"
+"\t- fontos információkat küldjünk Önnek a számlázásról, megrendelésről és a szolgáltatásokról\r\n"
+"\t- Válaszoljunk kérdéseire, visszatérítési igényeire vagy panaszaira,\r\n"
+"\t- feldolgozzuk a fizetéseket és – jogos üzleti érdekeink alapján – megelőzzük az esetleges csaló szándékú tranzakciókat,\r\n"
+"\t- létrehozzuk és kezeljük felhasználói fiókját, technikai vagy ügyféltámogatást nyújtsunk és ellenőrizzük személyazonosságát.\r\n"
+"\t"
+
+#: includes/privacy-functions.php:65
+msgid "Location and traffic data (including IP address and browser type) if you place an order, or if we need to estimate taxes and shipping costs based on your location."
+msgstr "Hely- és forgalmi adatok (többek között IP-cím és böngészőtípus) ha felad egy megrendelést vagy ha az adók és a szállítási költségek megbecsüléséhez ezekre szükségünk van."
+
+#: includes/privacy-functions.php:66
+msgid "Product pages visited and content viewed while your session is active."
+msgstr "Aktív munkamenete során megtekintett termékoldalak és tartalom."
+
+#: includes/privacy-functions.php:67
+msgid "Your comments and product reviews if you choose to leave them on our website."
+msgstr "Hozzászólásai és véleményei, ha úgy dönt, hogy ilyeneket ír a weboldalunkra."
+
+#: includes/privacy-functions.php:68
+msgid "Account email/password to allow you to access your account, if you have one."
+msgstr "Fiókhoz használt e-mail cím/jelszó, hogy beléphessen a fiókjába, ha rendelkezik ilyennel."
+
+#: includes/privacy-functions.php:69
+msgid "If you choose to create an account with us, your name, address, and email address, which will be used to populate the checkout for future orders."
+msgstr "Ha létrehoz egy fiókot, akkor az Ön neve, címe és e-mail címe, amelyeket a jövőbeli rendelések űrlapjainak előzetes kitöltéséhez használunk."
+
+#: includes/privacy-functions.php:74
+msgid "Additionally we may also collect the following information:"
+msgstr "Ezen túlmenően az alábbi adatokat is gyűjthetjük:"
+
+#. Author of the plugin/theme
+msgid "WP Travel Engine"
+msgstr "WP Travel Engine"
+
+#: includes/privacy-functions.php:144 includes/privacy-functions.php:196
+msgid "Enquiry Record"
+msgstr "Megkeresések nyilvántartása"
+
+#: includes/privacy-functions.php:189
+msgid "Post Code"
+msgstr "Irányítószám"
+
+#: includes/privacy-functions.php:245
+msgid "Enquiry & Customer Record"
+msgstr "Megkeresések és ügyfelek nyilvántartása"
+
+#: includes/templates/order-form-template.php:108
+#: public/class-wp-travel-engine-public.php:274
+msgid "Start Date: "
+msgstr "Kezdő dátum: "
+
+#: includes/templates/order-form-template.php:109
+#: public/class-wp-travel-engine-public.php:275
+msgid "Trip Price: "
+msgstr "Út ára: "
+
+#: includes/templates/order-form-template.php:113
+msgid "Group Discount Price Per Person: "
+msgstr "Csoportos kedvezmény személyenként: "
+
+#: includes/templates/order-form-template.php:124
+#: public/class-wp-travel-engine-public.php:287
+msgid "Duration: "
+msgstr "Út időtartama: "
+
+#: includes/templates/order-form-template.php:125
+#: public/class-wp-travel-engine-public.php:288
+msgid "Number of Travelers: "
+msgstr "Utazók száma: "
+
+#: includes/templates/order-form-template.php:129
+msgid "Total Remaining Payment"
+msgstr "Teljes fennmaradó összeg"
+
+#: includes/templates/order-form-template.php:130
+msgid "Deposit Payable Now:  "
+msgstr "Most kifizetendő biztosíték:  "
+
+#: includes/templates/order-form-template.php:147
+msgid "Total Traveler(s)"
+msgstr "Utazók összesen"
+
+#: includes/templates/order-form-template.php:148
+msgid "Total Price"
+msgstr "Teljes ár"
+
+#: includes/templates/order-form-template.php:189
+msgid "Billing Details: "
+msgstr "Számlázási adatok: "
+
+#: includes/templates/order-form-template.php:270
+msgid "Check the box to confirm you've read and agree to our <a href=\"%1$s\" id=\"contact\" target=\"_blank\"> Terms and Conditions</a> and <a href=\"%2$s\" id=\"contact\" target=\"_blank\">Privacy Policy</a>."
+msgstr "Jelölje meg ezt a négyzetet, ha elolvasta és elfogadja <a href=\"%1$s\" id=\"contact\" target=\"_blank\">szerződési feltételeinket</a> és <a href=\"%2$s\" id=\"contact\" target=\"_blank\">adatvédelmi irányelveinket</a>."
+
+#: includes/templates/taxonomy-activities.php:229
+#: includes/templates/taxonomy-activities.php:431
+#: includes/templates/taxonomy-activities.php:652
+#: includes/templates/taxonomy-destination.php:280
+#: includes/templates/taxonomy-destination.php:482
+#: includes/templates/taxonomy-destination.php:692
+#: includes/templates/taxonomy-trip_types.php:230
+#: includes/templates/taxonomy-trip_types.php:429
+#: includes/templates/taxonomy-trip_types.php:650
+msgid "Load More Trips"
+msgstr "További utak betöltése"
+
+#: includes/templates/taxonomy-destination.php:254
+#: includes/templates/taxonomy-destination.php:456
+#: includes/templates/taxonomy-destination.php:666
+#: includes/templates/taxonomy-trip_types.php:202
+#: includes/templates/taxonomy-trip_types.php:402
+#: includes/templates/taxonomy-trip_types.php:622
+msgid "sold out"
+msgstr "betelt"
+
+#: includes/templates/taxonomy-destination.php:514
+msgid "Other Trips"
+msgstr "Más utak"
+
+#: includes/templates/taxonomy-destination.php:520
+msgid "These are other trips."
+msgstr "Ezek más utak."
+
+#: plugin-updater.php:19
+msgid "Plugin License Options"
+msgstr "Bővítmény licencbeállításai"
+
+#: plugin-updater.php:28
+msgid "Premium Extensions not Found!"
+msgstr "Prémium kiterjesztések nem találhatók."
+
+#: plugin-updater.php:36
+msgid "License Key"
+msgstr "Licenckulcs"
+
+#: plugin-updater.php:40
+msgid "Enter your license key for "
+msgstr "Adja meg licenckulcsát ehhez: "
+
+#: plugin-updater.php:46 plugin-updater.php:56
+msgid "Activate License"
+msgstr "Licenc aktiválása"
+
+#: plugin-updater.php:50
+msgid "You license key has been activated."
+msgstr "Licenckulcsa aktiváltatott."
+
+#: plugin-updater.php:52
+msgid "Deactivate License"
+msgstr "Licenc inaktiválása"
+
+#: plugin-updater.php:54
+msgid "Please activate your license."
+msgstr "Kérjük, akitálja licencét."
+
+#: plugin-updater.php:71
+msgid "Get Now"
+msgstr "Beszerzés most"
+
+#: plugin-updater.php:157 plugin-updater.php:203
+msgid "An error occurred, please try again."
+msgstr "Hiba történt, próbálja meg újra."
+
+#: plugin-updater.php:170
+msgid "Your license key expired on %s."
+msgstr "Licenckulcsa lejárt ekkor: %s."
+
+#: plugin-updater.php:177
+msgid "Your license key has been disabled."
+msgstr "Licenckulcsa le lett tiltva."
+
+#: plugin-updater.php:182
+msgid "Invalid license."
+msgstr "Érvénytelen licenc."
+
+#: plugin-updater.php:188
+msgid "Your license is not active for this URL."
+msgstr "Licence erre az URL-re nem aktív."
+
+#: plugin-updater.php:193
+msgid "This appears to be an invalid license key for %s."
+msgstr "Úgy tűnik, ez érvénytelen licenckulcs ehhez: %s."
+
+#: plugin-updater.php:198
+msgid "Your license key has reached its activation limit."
+msgstr "Licenckulcsa elérte az aktiválás korlátozását."
+
+#: plugin-updater.php:338
+msgid "You have invalid or expired license keys for WP Travel Engine. Please go to the <a href=\"%s\">Licenses page</a> to correct this issue."
+msgstr "A WP Travel Engine-hez való licenckulcsa érvénytelen vagy lejárt. A probléma megoldásához látogasson el a <a href=\"%s\">licencoldalra</a>."
+
+#: plugin-updater.php:491
+msgid "The license of %1$s has expired. %2$sRenew Now%3$s"
+msgstr "A(z) %1$s licence lejárt. %2$sÚjítsa meg most%3$s"
+
+#: plugin-updater.php:517
+msgid "There is a new version of %1$s available. Download and replace the older version. %2$sGet it Now%3$s"
+msgstr "Rendelkezésre áll egy új verzió ebből: %1$s. Töltse le, és cserélje le vele a régebbi verziót. %2$sSzerezze be most%3$s"
+
+#: public/class-wp-travel-engine-public.php:105
+msgid "Cart sucessfully updated!"
+msgstr "A kosár tartalma sikeresen frissült."
+
+#: public/class-wp-travel-engine-public.php:106
+msgid "Cart update failed!"
+msgstr "A kosár tartalmának frissítése nem sikerült."
+
+#: public/class-wp-travel-engine-public.php:184
+msgid "Already added to cart!"
+msgstr "Már a kosárban van."
+
+#: public/class-wp-travel-engine-public.php:192
+msgid "Added to cart successfully!"
+msgstr "Sikeresen kosárba téve."
+
+#: public/class-wp-travel-engine-public.php:196
+msgid "Unable to add to cart!"
+msgstr "Nem sikerül kosárba tenni."
+
+#: public/class-wp-travel-engine-public.php:224
+msgid "Select Payment Method"
+msgstr "Fizetési mód kiválasztása"
+
+#: public/class-wp-travel-engine-public.php:234
+msgid "Please choose a gateway"
+msgstr ""
+
+#: public/class-wp-travel-engine-public.php:259
+msgid "Trips:"
+msgstr "Utak:"
+
+#: public/class-wp-travel-engine-public.php:290
+msgid "Total: "
+msgstr "Összesen: "
+
+#: public/class-wp-travel-engine-public.php:307
+msgid "Update cart"
+msgstr "Kosár tartalmának frissítése"
+
+#: public/class-wp-travel-engine-public.php:645
+#: public/class-wp-travel-engine-public.php:919
+msgid "View Detail"
+msgstr "Részletek megtekintése"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wp-travel-engine/"
+msgstr "https://wordpress.org/plugins/wp-travel-engine/"
+
+#. Description of the plugin/theme
+msgid "WP Travel Engine is a free travel booking WordPress plugin to create travel and tour packages for tour operators and travel agencies. It is a complete travel management system and includes plenty of useful features. You can create your travel booking website using WP Travel Engine in less than 5 minutes."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wptravelengine.com/"
+msgstr "https://wptravelengine.com/"
+
+#: admin/class-wp-travel-engine-admin.php:146
+msgctxt "post type general name"
+msgid "Trips"
+msgstr "Utak"
+
+#: admin/class-wp-travel-engine-admin.php:190
+msgctxt "post type general name"
+msgid "Enquiries"
+msgstr "Megkeresések"
+
+#: admin/class-wp-travel-engine-admin.php:237
+msgctxt "post type general name"
+msgid "Bookings"
+msgstr "Foglalások"
+
+#: admin/class-wp-travel-engine-admin.php:285
+msgctxt "post type general name"
+msgid "Customers"
+msgstr "Ügyfelek"
+
+#: admin/class-wp-travel-engine-admin.php:147
+msgctxt "post type singular name"
+msgid "Trip"
+msgstr "Út"
+
+#: admin/class-wp-travel-engine-admin.php:191
+msgctxt "post type singular name"
+msgid "Enquiry"
+msgstr "Megkeresés"
+
+#: admin/class-wp-travel-engine-admin.php:238
+msgctxt "post type singular name"
+msgid "Booking"
+msgstr "Foglalás"
+
+#: admin/class-wp-travel-engine-admin.php:286
+msgctxt "post type singular name"
+msgid "Customer"
+msgstr "Ügyfél"
+
+#: admin/class-wp-travel-engine-admin.php:148
+msgctxt "admin menu"
+msgid "Trips"
+msgstr "Utak"
+
+#: admin/class-wp-travel-engine-admin.php:192
+msgctxt "admin menu"
+msgid "Enquiries"
+msgstr "Megkeresések"
+
+#: admin/class-wp-travel-engine-admin.php:239
+msgctxt "admin menu"
+msgid "Bookings"
+msgstr "Foglalások"
+
+#: admin/class-wp-travel-engine-admin.php:287
+msgctxt "admin menu"
+msgid "Customers"
+msgstr "Ügyfelek"
+
+#: admin/class-wp-travel-engine-admin.php:149
+msgctxt "add new on admin bar"
+msgid "Trip"
+msgstr "Út"
+
+#: admin/class-wp-travel-engine-admin.php:193
+msgctxt "add new on admin bar"
+msgid "Enquiry"
+msgstr "Megkeresés"
+
+#: admin/class-wp-travel-engine-admin.php:240
+msgctxt "add new on admin bar"
+msgid "Booking"
+msgstr "Foglalás"
+
+#: admin/class-wp-travel-engine-admin.php:288
+msgctxt "add new on admin bar"
+msgid "Customer"
+msgstr "Ügyfél"
+
+#: admin/class-wp-travel-engine-admin.php:150
+msgctxt "Trip"
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+#: admin/class-wp-travel-engine-admin.php:194
+msgctxt "Enquiry"
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+#: admin/class-wp-travel-engine-admin.php:241
+msgctxt "Booking"
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+#: admin/class-wp-travel-engine-admin.php:289
+msgctxt "Customer"
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+#: admin/class-wp-travel-engine-admin.php:545
+msgctxt "taxonomy general name"
+msgid "Destinations"
+msgstr "Úticélok"
+
+#: admin/class-wp-travel-engine-admin.php:578
+msgctxt "taxonomy general name"
+msgid "Activities"
+msgstr "Különlegességek"
+
+#: admin/class-wp-travel-engine-admin.php:612
+msgctxt "taxonomy general name"
+msgid "Trip Type"
+msgstr "Úttípus"
+
+#: admin/class-wp-travel-engine-admin.php:546
+msgctxt "taxonomy singular name"
+msgid "Destinations"
+msgstr "Úticélok"
+
+#: admin/class-wp-travel-engine-admin.php:579
+msgctxt "taxonomy singular name"
+msgid "Activities"
+msgstr "Különlegességek"
+
+#: admin/class-wp-travel-engine-admin.php:613
+msgctxt "taxonomy singular name"
+msgid "Trip Type"
+msgstr "Úttípus"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:168
+#: includes/templates/taxonomy-activities.php:152
+#: includes/templates/taxonomy-activities.php:353
+#: includes/templates/taxonomy-activities.php:575
+#: includes/templates/taxonomy-destination.php:203
+#: includes/templates/taxonomy-destination.php:405
+#: includes/templates/taxonomy-destination.php:615
+#: includes/templates/taxonomy-trip_types.php:151
+#: includes/templates/taxonomy-trip_types.php:351
+#: includes/templates/taxonomy-trip_types.php:572
+#: includes/templates/template-trip-listing.php:126
+#: public/class-wp-travel-engine-public.php:578
+#: public/class-wp-travel-engine-public.php:852
+msgctxt "reviews count"
+msgid "review"
+msgid_plural "reviews"
+msgstr[0] "vélemény"
+msgstr[1] "vélemények"

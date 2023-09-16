@@ -1,0 +1,166 @@
+@import "./old-public";
+
+.page-template-template-destination, .page-template-template-activities, .page-template-template-trip_types{
+    .destination-holder, .activities-holder, .trip_types-holder{
+        .tour-count{
+            font-size: 14px;
+        }
+        .item{
+            @media(min-width: 1025px){
+                margin-bottom: 80px;
+            }
+            .title-holder{
+                font-size: 22px;
+                font-weight: 500;
+                margin-top: 24px;
+                position: static;
+                padding: 0;
+            }
+            .img-holder{
+                display: block;
+                border-radius: 4px;
+                overflow: hidden;
+                position: relative;
+                padding-top: 90%;
+                img{
+                    width: 100%;
+                    height: 100% !important;
+                    object-fit: cover;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    transition: all .3s ease;
+                }
+                .text-holder{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: rgba(#2183DF, .8);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    transition: all .3s linear;
+                    transition-delay: .3s;
+                    visibility: hidden;
+                    opacity: 0;
+                    font-size: 16px;
+                    padding: 30px;
+                    text-align: center;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+                .sub-destination{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom: 24px;
+                    a{
+                        display: block;
+                        text-decoration: none;
+                        font-size: 16px;
+                        line-height: 1.25;
+                        margin-bottom: 8px;
+                        color: #fff;
+                        transition: all .3s cubic-bezier(0.23, 1, 0.32, 1);
+                        transform: translateY(30px);
+                        visibility: hidden;
+                        opacity: 0;
+                        transition-delay: .3s;
+                        &:nth-child(2){
+                            transition-delay: .2s;
+                        }
+                        &:nth-child(3){
+                            transition-delay: .1s;
+                        }
+                    }
+                }
+                .button{
+                    font-size: 16px;
+                    padding: 10px 30px;
+                    border: 1px solid #fff;
+                    color: #fff;
+                    border-radius: 4px;
+                    background: none;
+                    font-weight: 500;
+                    transition: all .3s cubic-bezier(0.23, 1, 0.32, 1);
+                    transform: translateY(30px);
+                    visibility: hidden;
+                    opacity: 0;
+                    &:hover{
+                        transition-delay: 0s;
+                    }
+                }
+                &:hover{
+                    .text-holder{
+                        transition: all .3s cubic-bezier(0.23, 1, 0.32, 1);
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                    .sub-destination{
+                        a{
+                            transform: translateY(0px);
+                            visibility: visible;
+                            opacity: 1;
+                        }
+                    }
+                    .button{
+                        transform: translateY(0px);
+                        visibility: visible;
+                        opacity: 1;
+                        &:hover{
+                            transition-delay: 0s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.page-template-template-destination{
+    .destination-holder{
+        .item{
+            .img-holder{
+                &:hover{
+                    .text-holder{
+                        transition: all .3s cubic-bezier(0.23, 1, 0.32, 1);
+                        transition-delay: 0s;
+                    }
+                    .sub-destination{
+                        a{
+                            transition-delay: .1s;
+                            &:nth-child(2){
+                                transition-delay: .2s;
+                            }
+                            &:nth-child(3){
+                                transition-delay: .3s;
+                            }
+                        }
+                    }
+                    .button{
+                        transition-delay: .4s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.page-template-template-activities, .page-template-template-trip_types{
+    .activities-holder, .trip_types-holder{
+        .item{
+            &:hover{
+                .img-holder{
+                    img{
+                        transform: scale(1.3);
+                    }
+                }
+            }
+        }
+    }
+}

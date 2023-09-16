@@ -1,0 +1,356 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .cta-bg-color>.wp-picker-container>a {
+    display: none;
+}
+.travel_booking_toolkit-font-awesome-list {
+    margin-bottom: 10px
+}
+
+.travel_booking_toolkit-font-awesome-list ul {
+    text-align: center;
+    height: 300px;
+    margin: 0
+}
+
+.travel_booking_toolkit-font-awesome-list li {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.travel_booking_toolkit-font-awesome-list li:hover,
+.travel_booking_toolkit-font-awesome-list li.selected {
+    background: #F6F6F6;
+}
+
+.travel_booking_toolkit-font-awesome-list li svg {
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.travel_booking_toolkit-font-awesome-list {
+    margin-bottom: 10px
+}
+
+.travel_booking_toolkit-font-awesome-list ul {
+    text-align: center;
+    height: 300px;
+    margin: 0
+}
+
+.travel_booking_toolkit-font-awesome-list li {
+    width: 40px;
+    height: 40px;
+}
+
+.travel_booking_toolkit-font-awesome-list li:hover,
+.travel_booking_toolkit-font-awesome-list li.selected {
+    background: #F6F6F6;
+}
+
+.travel_booking_toolkit-remove-icon {
+    background: url("../images/ico-delete.png");
+    top: 1em;
+    display: block;
+    height: 16px;
+    padding: 0;
+    position: absolute;
+    text-indent: -9999px;
+    width: 16px;
+    cursor: pointer;
+    right: 0;
+}
+.travel_booking_toolkit-remove-image {
+    background: url("../images/ico-delete.png");
+    display: block;
+    height: 16px;
+    right: 0;
+    top: 0;
+    padding: 0;
+    position: absolute;
+    text-indent: -9999px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.rara-screenshot{margin: 20px 0 10px; position: relative;}
+
+.travel_booking_toolkit-remove-image{
+    margin-top: 0;
+    display: inline-block;
+}
+
+.travel_booking_toolkit-upload-button{
+    margin-top: 10px !important;
+}
+
+.widget-control-actions{margin-top: 10px;}
+
+.icon-receiver{
+
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #F1F1F1;
+
+}
+
+.travel_booking_toolkit-font-awesome-list ul{
+    overflow: auto;
+    height: 315px;
+}
+
+.travel_booking_toolkit-font-group li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.travel_booking_toolkit-icons-list {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    z-index: 9999;
+    width: 225px;
+    border: 1px solid #ddd;
+    height: 300px;
+    overflow: scroll;
+    margin: 0 -5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.travel_booking_toolkit-social-icon-wrap .travel_booking_toolkit-icons-list, 
+.social-share-list input.user-social-profile + .travel_booking_toolkit-icons-list {
+    top: 75px;
+    left: 49px;
+    width: 77%;
+    padding-top: 30px;
+}
+
+.travel_booking_toolkit-social-icon-wrap .travel_booking_toolkit-icons-list #remove-icon-list, 
+.travel_booking_toolkit-contact-social-icon-wrap .social-search-wrap .travel_booking_toolkit-icons-list #remove-icon-list, 
+.social-share-list input.user-social-profile + .travel_booking_toolkit-icons-list #remove-icon-list {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    color: red;
+    cursor: pointer;
+}
+
+.travel_booking_toolkit-social-icon-wrap .travel_booking_toolkit-icons-list li:hover, 
+.travel_booking_toolkit-contact-social-icon-wrap .social-search-wrap .travel_booking_toolkit-icons-list li:hover, 
+.social-share-list input.user-social-profile + .travel_booking_toolkit-icons-list li:hover {
+    background: #f5f5f5;
+}
+.taxonomy-list option, .taxonomy-list
+{
+    text-transform: capitalize;
+}
+.travel_booking_toolkit-screenshot img {
+    max-width: 100%;
+}
+
+li.travel_booking_toolkit-contact-social-icon-wrap {
+    border: 1px solid #e5e5e5;
+    padding: 20px 20px 20px 50px;
+    margin-bottom: 20px;
+    position: relative;
+    background: #fff;
+    /*display: none !important;*/
+}
+
+li.travel_booking_toolkit-contact-social-icon-wrap:before {
+    content: "\f545";
+    font-family: dashicons;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: -9px;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    background: #e5e5e5;
+    border-radius: 100%;
+    cursor: move;
+}
+
+li.travel_booking_toolkit-contact-social-icon-wrap .travel_booking_toolkit-contact-social-links-field-handle {
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+
+li.travel_booking_toolkit-contact-social-icon-wrap .travel_booking_toolkit-contact-social-links-field-handle.fa {
+    font-size: 18px;
+}
+
+li.travel_booking_toolkit-contact-social-icon-wrap label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 3px;
+}
+
+li.travel_booking_toolkit-contact-social-icon-wrap label.link-label {
+    margin-top: 20px;
+}
+
+li.travel_booking_toolkit-contact-social-icon-wrap span.example-text {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+    display: block;
+}
+
+li.travel_booking_toolkit-contact-social-icon-wrap .social-search-wrap {
+    position: relative;
+}
+
+li.travel_booking_toolkit-contact-social-icon-wrap input {
+    width: 100%;
+}
+
+li.travel_booking_toolkit-contact-social-icon-wrap input.travel_booking_toolkit-contact-social-length {
+    margin-bottom: 10px;
+}
+
+li.travel_booking_toolkit-contact-social-icon-wrap .travel_booking_toolkit-icons-list {
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+li.travel_booking_toolkit-contact-social-icon-wrap .travel_booking_toolkit-icons-list li {
+    display: inline-block;
+    width: 33.33%;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+li.travel_booking_toolkit-contact-social-icon-wrap .travel_booking_toolkit-icons-list li:hover {
+    background: #f5f5f5;
+}
+
+li.travel_booking_toolkit-contact-social-icon-wrap span.del-contact-travel_booking_toolkit-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    font-size: 16px;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.travel_booking_toolkit-option-side-note {
+    display: block;
+    margin-top: 20px;
+}
+
+.wptec-search-icon{
+    width: 100%;
+}
+.travel_booking_toolkit-remove-icon,.travel_booking_toolkit-remove-image{
+    bottom: 4px;
+    display: block;
+    float: left;
+    height: 16px;
+    right: -4px;
+    padding: 0;
+    position: absolute;
+    text-indent: -9999px;
+    width: 16px;
+    cursor: pointer;
+    top: 15px;
+}
+.widget p{
+    position: relative;
+}
+ul.travel_booking_toolkit-font-group:before, 
+ul.travel_booking_toolkit-font-group:after {
+    content: "";
+    display: table;
+}
+ul.travel_booking_toolkit-font-group:after {
+    clear: both;
+}
+ul.travel_booking_toolkit-font-group {
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    font-size: 25px;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.travel_booking_toolkit-font-group li {
+    text-align: center;
+    margin: 1%;
+    cursor: pointer;
+}
+ul.travel_booking_toolkit-font-group li:hover {
+    background: #f5f5f5;
+}
+
+.travel_booking_toolkit-screenshot {
+    position: relative;
+    margin-top: 20px;
+}
+
+.widget-client-logo-repeater .link-image-repeat {
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    background: #fff;
+}
+
+.widget-client-logo-repeater .link-image-repeat .cross {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 15px;
+    background: red;
+    color: #fff;
+    display: block;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.widget-client-logo-repeater .link-image-repeat .widget-upload {
+    margin-bottom: 20px;
+}
+
+.widget-client-logo-repeater .link-image-repeat label {
+    font-weight: 600;
+    display: block;
+}
+
+.widget-client-logo-repeater .link-image-repeat .travel_booking_toolkit-screenshot {
+    background: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.widget-client-logo-repeater .link-image-repeat .travel_booking_toolkit-screenshot:empty {
+    padding: 0;
+    background: none;
+}

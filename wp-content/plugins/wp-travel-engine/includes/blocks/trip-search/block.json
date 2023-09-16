@@ -1,0 +1,42 @@
+{
+    "api_version": 2,
+    "name": "wptravelengine/trip-search",
+    "category": "widgets",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": ""
+        },
+        "subtitle": {
+            "type": "string",
+            "default": ""
+        },
+        "titleLevel": {
+            "type": "number",
+            "default": 2
+        },
+        "searchFormLayout": {
+            "type": "string",
+            "default": "horizontal"
+        },
+        "searchButtonLabel": {
+            "type": "string",
+            "default": ""
+        },
+        "layoutFilters": {
+            "type": "object",
+            "default": {
+                "showDropdownIcon": true,
+                "showIcons": true,
+                "showFilterLabels": true,
+                "showDestinations": true,
+                "showDateSelector": false,
+                "showActivities": true,
+                "showDurationRange": true,
+                "showPriceRange": true,
+                "showTitle": true,
+                "showSubtitle": true
+            }
+        }
+    }
+}

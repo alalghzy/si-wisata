@@ -1,0 +1,119 @@
+{
+    "version": "5.5",
+    "header": {
+        "title": "5.5",
+        "description": "WP Travel Engine - Update Release Notes"
+    },
+    "sections": [
+        {
+            "title": "Welcome to WP Travel Engine 5.5",
+            "content": [
+                "WP Travel Engine 5.5 includes the most awaited and requested features, including enhancements and bug fixes.",
+                "This page highlights the new features and resources for users to provide an understanding of those features.",
+                "<a href=\"https://docs.wptravelengine.com/docs/wp-travel-engine-5-5/\" target=\"_blank\">View Latest Features</a>"
+            ],
+            "attributes": {
+                "style": "margin-bottom:32px;"
+            }
+        },
+        {
+            "title": "Social Login",
+            "content": [
+                "Social Login features allows customers registration and log in to the site using facebook, Google and LinkedIn.",
+                "This makes checkout process seamless and improves conversion. It also makes access to User Dashboard easy as customers don't need to remember another username and password.",
+                "<a href=\"https://docs.wptravelengine.com/docs/social-login/\" target=\"_blank\">View Documentation</a>",
+                "You have to enable social login to make this feature available to the end-user."
+            ],
+            "images": [
+                {
+                    "src": "%assets_path_url%social-login-settings.png",
+                    "caption": "Social Login Settings"
+                },
+                {
+                    "src": "%assets_path_url%social-login-dashboard.png",
+                    "caption": "Social Login in User Dashboard"
+                }
+            ],
+            "classNames" : [],
+            "attributes": {
+                "style": "margin-bottom:32px;"
+            }
+        },
+        {
+            "title": "Related Trips",
+            "content": [
+                "Since WP Travel Engine 5.5, there is an option to show and hide related trips for Single Trip, which is enabled in default.",
+                "<a href=\"https://docs.wptravelengine.com/docs/wp-travel-engine-5-5/#3-toc-title\" target=\"_blank\">View Documentation</a>",
+                "You can add related trips from Display Settings."
+            ],
+            "images": [
+                {
+                    "src": "%assets_path_url%related-trip-settings.png",
+                    "caption": "Related Trip Settings"
+                }
+            ],
+            "classNames": [],
+            "attributes": {
+                "style": "margin-bottom:32px;"
+            }
+        },
+        {
+            "title": "Trip Taxes",
+            "content": [
+                "This feature allows you to add tax for the trips.",
+                "<a href=\"https://docs.wptravelengine.com/docs/wp-travel-engine-5-5/#0-toc-title\" target=\"_blank\">View Documentation</a>",
+                "To use the feature, Tax should be enabled and configured."
+            ],
+            "images": [
+                {
+                    "src": "%assets_path_url%tax-settings.png",
+                    "caption": "Tax Settings"
+                },
+                {
+                    "src": "%assets_path_url%tax-checkout.png",
+                    "caption": "Trip tax during checkout"
+                }
+            ],
+            "classNames" : [],
+            "attributes": {
+                "style": "margin-bottom:32px;"
+            }
+        },
+        {
+            "title": "Hourly Tours",
+            "content": [
+                "WP Travel Engine 5.5 now provides an hourly booking feature for tours/activities that are in hours, not days. Now, you can add multiple hour slots for each day and week.",
+                "<a href=\"https://docs.wptravelengine.com/docs/wp-travel-engine-5-5/#1-toc-title\" target=\"_blank\">View Documentation</a>",
+                "To enable the hourly feature, make sure you have select the duration type as hours."
+            ],
+            "images": [
+                {
+                    "src": "%assets_path_url%enable-hours.png",
+                    "caption": "Enable Hours"
+                },
+                {
+                    "src": "%assets_path_url%trip-hourly-features.png",
+                    "caption": "Trip Hourly Settings"
+                }
+            ],
+            "classNames": [],
+            "attributes": {
+                "style": "margin-bottom:32px;"
+            }
+        }
+    ],
+    "addonCompatibilities" : [
+        {
+            "name" : "Trip Reviews",
+            "version": "2.1.2"
+        },
+        {
+            "name" : "Advanced Itinerary Builder",
+            "version": "2.1.0"
+        },
+        {
+            "name" : "Extra Services",
+            "version": "2.1.3"
+        }
+    ]
+}

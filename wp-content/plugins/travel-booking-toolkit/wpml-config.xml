@@ -1,0 +1,52 @@
+<wpml-config>
+  <custom-fields>
+    <custom-field action="translate">_wp_page_template</custom-field>
+    <custom-field action="translate">_wp_attached_file</custom-field>
+    <custom-field action="translate">_wp_attachment_metadata</custom-field>
+    <custom-field action="translate">tiny_compress_images</custom-field>
+    <custom-field action="translate">_wp_attachment_context</custom-field>
+    <custom-field action="translate">wp_travel_engine_booking_setting</custom-field>
+    <custom-field action="translate">wp_travel_engine_bookings</custom-field>
+    <custom-field action="translate">wp_travel_engine_booked_trip_setting</custom-field>
+    <custom-field action="translate">_menu_item_type</custom-field>
+    <custom-field action="translate">_menu_item_menu_item_parent</custom-field>
+    <custom-field action="translate">_menu_item_object_id</custom-field>
+    <custom-field action="translate">_menu_item_object</custom-field>
+    <custom-field action="translate">_menu_item_classes</custom-field>
+    <custom-field action="translate">_menu_item_url</custom-field>
+    <custom-field action="translate">_sidebar_layout</custom-field>
+    <custom-field action="translate">_thumbnail_id</custom-field>
+    <custom-field action="translate">_wxr_import_has_attachment_refs</custom-field>
+    <custom-field action="translate">_dp_original</custom-field>
+    <custom-field action="translate">_raratheme_view_count</custom-field>
+    <custom-field action="translate">_tap_post_like</custom-field>
+    <custom-field action="translate">_tap_sidebar_layout</custom-field>
+    <custom-field action="translate">_tap_sidebar</custom-field>
+    <custom-field action="translate">_tap_team_position</custom-field>
+    <custom-field action="translate">_tap_team_social</custom-field>
+    <custom-field action="translate">_tap_team_gallery_ids</custom-field>
+    <custom-field action="translate">_tap_team_gallery_title</custom-field>
+    <custom-field action="translate">wp_travel_engine_setting</custom-field>
+    <custom-field action="translate">wp_travel_engine_setting_trip_price</custom-field>
+    <custom-field action="translate">wp_travel_engine_setting_trip_duration</custom-field>
+    <custom-field action="translate">wpte_gallery_id</custom-field>
+    <custom-field action="translate">_wp_old_slug</custom-field>
+    <custom-field action="translate">_tap_testimonail_visited_trip</custom-field>
+    <custom-field action="translate">_tap_testimonail_trip_date</custom-field>
+    <custom-field action="translate">_tap_testimonail_trip_rating</custom-field>
+    <custom-field action="translate">_edit_lock</custom-field>
+    <custom-field action="translate">_edit_last</custom-field>
+    <custom-field action="translate">comment_status</custom-field>
+    <custom-field action="translate">wte_fixed_starting_dates_setting</custom-field>
+    <custom-field action="translate">list_serialized</custom-field>
+    <custom-field action="translate">wp_travel_engine_placeorder_setting</custom-field>
+    <custom-field action="translate">_pll_strings_translations</custom-field>
+    <custom-field action="translate">_tb_sidebar_layout</custom-field>
+    <custom-field action="translate">_wp_trash_meta_status</custom-field>
+    <custom-field action="translate">_wp_trash_meta_time</custom-field>
+    <custom-field action="translate">_menu_item_target</custom-field>
+    <custom-field action="translate">_menu_item_xfn</custom-field>
+    <custom-field action="translate">_pll_menu_item</custom-field>
+    <custom-field action="translate">_customize_restore_dismissed</custom-field>
+  </custom-fields>
+</wpml-config>

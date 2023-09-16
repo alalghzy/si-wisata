@@ -1,0 +1,75 @@
+{
+    "api_version": 2,
+    "name": "wptravelengine/trips",
+    "category": "widgets",
+    "attributes": {
+        "excerptLength": {
+            "type": "number",
+            "default": 20
+        },
+        "showSectionHeading": {
+            "type": "boolean",
+            "default": true
+        },
+        "sectionHeading": {
+            "type": "string",
+            "default": ""
+        },
+        "showSectionDescription": {
+            "type": "boolean",
+            "default": true
+        },
+        "sectionDescription": {
+            "type": "string",
+            "default": ""
+        },
+        "sectionHeadingLevel": {
+            "type": "number",
+            "default": 2
+        },
+        "layout": {
+            "type": "string",
+            "default": "grid"
+        },
+        "tripsCountPerRow": {
+            "type": "number",
+            "default": 3
+        },
+        "cardlayout": {
+            "type": "number",
+            "default": 1
+        },
+        "viewMoreButtonText": {
+            "type": "string",
+            "default": "View Details"
+        },
+        "filters": {
+            "type": "object",
+            "default": {
+                "tripsCount": 6,
+                "listby": "latest",
+                "tripsToDisplay": []
+            }
+        },
+        "layoutFilters": {
+            "type": "object",
+            "default": {
+                "showFeaturedRibbon": true,
+                "showDescription": true,
+                "showFeaturedImage": true,
+                "showTitle": true,
+                "showPrice": true,
+                "showStrikedPrice": true,
+                "showDuration": true,
+                "showLocation": true,
+                "showReviews": false,
+                "showDiscount": true,
+                "showActivities": false,
+                "showTripType": false,
+                "showGroupSize": false,
+                "showTripAvailableTime": false,
+                "showViewMoreButton": true
+            }
+        }
+    }
+}

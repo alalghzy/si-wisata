@@ -1,0 +1,124 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">trip</custom-type>
+    <custom-type translate="1">booking</custom-type>
+    <custom-type translate="1">customer</custom-type>
+    <custom-type translate="1">enquiry</custom-type>
+    <custom-type translate="1">wte-services</custom-type>
+  </custom-types>
+  <custom-fields>
+    <custom-field action="ignore">wp_fixed_departure_dates_setting</custom-field>
+    <custom-field action="ignore">wte_fixed_departure_dates_setting</custom-field>
+    <custom-field action="ignore">wp_travel_engine_setting</custom-field>
+    <custom-field action="ignore">wp_travel_engine_setting_trip_price</custom-field>
+    <custom-field action="ignore">wp_travel_engine_setting_trip_duration</custom-field>
+    <custom-field action="ignore">wp_travel_engine_setting_trip_prev_price</custom-field>
+    <custom-field action="ignore">wte_fixed_starting_dates_setting</custom-field>
+    <custom-field action="ignore">wp_travel_engine_booking_setting</custom-field>
+    <custom-field action="ignore">wp_travel_engine_bookings</custom-field>
+    <custom-field action="ignore">wp_travel_engine_booked_trip_setting</custom-field>
+    <custom-field action="ignore">wp_travel_engine_placeorder_setting</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="wp_travel_engine_settings">
+      <key name="pages">
+        <key name="wp_travel_engine_place_order"/>
+        <key name="wp_travel_engine_terms_and_conditions"/>
+        <key name="wp_travel_engine_thank_you"/>
+        <key name="wp_travel_engine_confirmation_page"/>
+        <key name="search"/>
+        <key name="enquiry"/>
+      </key>
+      <key name="group">
+        <key name="discount_title"/>
+        <key name="discount_availability"/>
+        <key name="discount_guide_title"/>
+        <key name="discount_guide_traveler"/>
+        <key name="discount_guide_cost"/>
+        <key name="discount_guide_cost_traveler"/>
+        <key name="discount_guide_child_traveler"/>
+        <key name="discount_guide_child_cost_traveler"/>
+      </key>
+      <key name="trip_tabs">
+        <key name="name">
+          <key name="*"/>
+        </key>
+      </key>
+      <key name="trip_facts">
+        <key name="fid">
+          <key name="*"/>
+        </key>
+        <key name="field_id">
+          <key name="*"/>
+        </key>
+        <key name="field_icon">
+          <key name="*"/>
+        </key>
+        <key name="field_type">
+          <key name="*"/>
+        </key>
+        <key name="select_options">
+          <key name="*"/>
+        </key>
+        <key name="input_placeholder">
+          <key name="*"/>
+        </key>
+      </key>
+      <key name="email">
+        <key name="template"/>
+        <key name="name"/>
+        <key name="from"/>
+        <key name="subject"/>
+        <key name="purchase_wpeditor"/>
+        <key name="sale_subject"/>
+        <key name="sales_wpeditor"/>
+        <key name="emails"/>
+      </key>
+      <key name="bank_transfer">
+        <key name="title"/>
+        <key name="description"/>
+        <key name="instruction"/>
+        <key name="accounts"/>
+          <key name="*" >
+        </key>
+      </key>
+      <key name="check_payment">
+        <key name="title"/>
+        <key name="description"/>
+        <key name="instruction"/>
+      </key>
+      <key name="currency_code"/>
+      <key name="book_btn_txt"/>
+      <key name="query_subject"/>
+      <key name="confirmation_msg"/>
+      <key name="test_payment"/>
+      <key name="paypal_payment"/>
+      <key name="authorize_net_enable"/>
+      <key name="paypal_id"/>
+      <key name="stripe_secret"/>
+      <key name="stripe_publishable"/>
+      <key name="stripe_btn_label"/>
+      <key name="authorize_api_id"/>
+      <key name="authorize_transaction_key"/>
+      <key name="person_format"/>
+      <key name="gdpr_msg"/>
+      <key name="departure">
+        <key name="section_title"/>
+      </key>
+      <key name="trip_dates">
+        <key name="number"/>
+      </key>
+    </key>
+  </admin-texts>
+  <shortcodes>
+    <shortcode>
+      <tag>THANK_YOU</tag>
+    </shortcode>
+    <shortcode>
+      <tag>PLACE_ORDER</tag>
+    </shortcode>
+    <shortcode>
+      <tag>BOOK_CONFIRMATION</tag>
+    </shortcode>
+  </shortcodes>
+</wpml-config>

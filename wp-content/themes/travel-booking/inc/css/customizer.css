@@ -1,0 +1,23 @@
+.header-t .tel-link,
+.header-t .email-link,
+.header-t .opening-time,
+.header-t .right .reg-no,
+.header-t .right .pan-no{
+	position: relative;
+}
+
+.header-t .tel-link .customize-partial-edit-shortcut-phone,
+.header-t .email-link .customize-partial-edit-shortcut-email,
+.header-t .opening-time .customize-partial-edit-shortcut-time,
+.header-t .right .reg-no .customize-partial-edit-shortcut-registration_no,
+.header-t .right .pan-no .customize-partial-edit-shortcut-pan_vat_no{
+	position: absolute;
+	top: 20px;
+	left: 35px;
+}
+
+.nav-holder .form-section .customize-partial-edit-shortcut-ed_search{
+	position: absolute;
+	left: -9px;
+	top: 9px;
+}

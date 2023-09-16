@@ -1,0 +1,581 @@
+== Changelog ==
+
+= 5.5.9 - 9th December 2022 =
+* Fix: Map button and tooltip not working on new card when list updated
+* Fix: Trip facts gets hidden on sidebar after update
+* Fix: Trip Duration settings shows same value
+* Minor enhancements and Issue fixes
+
+= 5.5.8 - 9th December 2022 =
+* Fix: Trip Search Duration Slider Issue
+* Minor enhancements and Issue fixes
+
+= 5.5.7 - 8th December 2022 =
+* Fix: Trip Search form slider label issue
+* Enhancement: Reduced booking widget load time
+* Tweak: Adds default trip facts options
+* Tweak: Adds New Tab - Display, on Admin settings Page with layout conditions
+* Feature: Options to set default trip sorting and list view options
+* Feature: Adds Tag and Difficulty taxonomy for trips
+* Feature: New Trip Card advance layout
+* Minor enhancements and Issue fixes
+
+= 5.5.6 - 28th November 2022 =
+* Fix: Shows packages as page issue
+* Minor enhancements and Issue fixes
+
+= 5.5.5 - 15th November 2022 =
+* Fix: Fancybox Gallery Button Issue in Single Trip Page
+* Fix: Check availability loading issue
+* Fix: Image blur issue in trip listing page
+* Minor enhancements and Issue fixes
+
+= 5.5.4 - 18th October 2022 =
+* Fix: Trip Duration label
+* Fix: Typo fixes
+* Fix: Layout issue of check availability section on small devices
+* Minor enhancements and Issue fixes
+
+= 5.5.3 - 19th September 2022 =
+* Design: Trip availability booking widget in mobile improvement
+* Enhancement: Booked seats tracking functionality enhancements
+* Enhancement: Booking update and creation from admin page
+* Minor enhancements and Issue fixes
+
+= 5.5.2 - 15th September 2022 =
+* Fix: Trip content scroll issue
+* Minor enhancements and Issue fixes
+
+= 5.5.1 - 14th September 2022 =
+* Fix: Missing Dropzone script on dashboard
+* Fix: Social Login redirection issue
+* Enhancement: Rating stars not displays when no ratings
+* Fix: Missing Icons
+* Minor enhancements and Issue fixes
+
+= 5.5.0 - 12th September 2022 =
+* Feature: Customers can now Log In or Sign Up via socials. Facebook, Google and LinkedIn
+* Feature: Show/Hide related trips on Single Trip page.
+* Feature: Tax can be enabled and tax details will be shown while checkout.
+* Feature: Enable hours on week days basis for short day tours or multi day tours.
+* Enhancement: Both admin and customer will get information of each travellers in email.
+* Enhancement: Quick menu of WP Travel Engine has been added on Admin bar for easy navigation.
+* Enhancement: Enhanced and user friendly customer dashboard with new looks.
+* Enhancement: Optimization for page speed by reducing resource size and requests.
+* Enhancement: UI/UX enhancements
+* Fix: Search filters not being displayed when enabled **Hide in Search Page - FILTER BY Section**
+* Fix: Remaining amount is 0 for partially booked trips on Dashboard
+* Minor enhancements and Issue fixes
+
+= 5.4.4 - 1st August 2022 =
+* Fix: Disable fontawesome option not working
+* Fix: All videos can not be deleted from gallery tab on Trip Edit
+* Minor enhancements and Issue fixes
+
+= 5.4.3 - 15th July 2022 =
+* Fix: HTML entities not renders on Script templates used on trip booking popup.
+* Fix: Travellers info not displaying.
+* Minor issues fix
+
+= 5.4.2 - 4th July 2022 =
+* Minor issues fix
+
+= 5.4.1 - 27th June 2022 =
+* Fix: Booked Date formatting issue
+* Fix: Cannot create booking manually from admin
+* Fix: Checkout button label shows full payment amount when discount applied.
+* Fix: Support for elementor trip slider widget
+* Minor issues fix
+
+= 5.4.0 =
+* Fix: Pricing categories more than 10 not displayed while editing packages issue.
+
+= 5.3.9 - 31st March 2022 =
+* Fix: Same trip packages applies when a trip is cloned Issue.
+* Fix: Load more button not working for non-logged in user.
+* Minor fixes.
+
+= 5.3.8 - 3rd March 2022 =
+* Fix: Load more button not working on archives.
+* Fix: Vimeo video couldn't be added on ssl enabled sites.
+* Fix: Issue on WP Templates when used with WP Optimize plugin.
+* Fix: Package data not saving when trip drafted.
+* Fix: Support for Polylang to translate pricing categories.
+* Fix: Video Gallery layout issues fixes.
+* Tweak: Updates freemius lib.
+* Minor fixes.
+
+= 5.3.7 - 2nd March 2022 =
+* Feature: Slider Support for WTE elementor widgets.
+* Fix: Number of Trip packages limited by per_page setting.
+* Fix: Package Group Discounts not saving
+* Enhancement: Allows to display taxonomies children terms on taxonomy blocks.
+* Minor bug fixes
+
+= 5.3.6 - 26th January 2022 =
+* Compatibility Fixes for 5.9
+* Fix: Package link not rendered on Enquiry email
+* Fix: Error when switching list mode on search page
+* Fix: Search Filter invalid nonce issue
+* Fix: Dashboard login undefined index issue
+* Minor bug fixes
+
+= 5.3.5 - 8th December 2021 =
+* Fix: cannot use html tags on cutom tabs content
+* Fix: Select dropdown gets behind other element on blocks
+* Minor Issue Fixes
+
+= 5.3.4 - 3rd December 2021 =
+* Fix: Trip Tabs not showing on fresh setup when used without onboarding setup
+* Fix: Full description of taxonomies term is not available
+* Fix: Per label is not translateable
+* Fix: Onboarding saving not working
+* Minor Issue Fixes.
+
+= 5.3.3 - 1st December 2021 =
+* Fix: Taxonomy Description strip issue fixed.
+* Minor Issue Fixes.
+
+= 5.3.2 - 30th November 2021 =
+* Fix: Global settings page error fixed.
+* Minor Issue Fixes
+
+= 5.3.1 - 21st November 2021 =
+* Minor Issue Fixes
+
+= 5.3.0 - 17th November 2021 =
+* Tweak: Custom Filters menu moved under Trips as submenu on Dashboard
+* Update: Payment Method, Booking only label updates on checkout
+* Update: Decimal digits default to 0
+* Fix: Onboarding process not working correctly on first activation
+* Fix: Selecting a date on some months not working for specific timezone
+* Update: New user will have 2 pricing categories, Adult and Child as default
+* Update: Package edit link's label updated
+* Update: Payment method `Booking only` is now labelled as `Book Now Pay Later`
+* Enahancement: New tab is added on package edit popover section
+* Enahancement: Packge description can be added under general tab while editing packages
+* Enahancement: Packages are now sortable on trip edit page
+
+= 5.2.2 - 11th August 2021 =
+* Fix: Calendar dates diabled when no fsd plugin used fix
+
+= 5.2.1 - 10th August 2021 =
+* Fix: Booking Dates issues related to timezones fixes
+* Fix: Minor Bug Fixes
+
+= 5.2.0 - 3rd August 2021 =
+* Feature: Custom Trip Code feature integrated on the core
+* Feature: Trip Search feature integrated on the core
+* Feature: Coupon codes feature integrated on the core
+* Feature: Feature to add custom filters/taxonomies for trips now available on the core
+* Fix: Minor style fixes on admin
+* Fix: Shows original price when sale price is available on trip list
+* Fix: Trip can be booked with more pax when there is pax limit
+* Fix: Remaining amount mismatched when booked using standard PayPal.
+* Fix: Video Gallery is not working correctly.
+* Fix: Site timezone affects the booked trip date on checkout page.
+* Enhancement: Controlled booking steps, validation before stepping to next step
+* Enhancement: Default Pay button will show paying amount during checkout.
+* Enhancement: Performance and DB Query Optimzations.
+* Minor bug fixes
+
+= 5.1.0 - 10th June 2021 =
+* Template: trip content template updates
+* Fix: Category Label not dynamic issue fix
+* Enhancement: Trip Date calendar
+
+= 5.0.3 - 3rd June 2021 =
+* Enhancement - Global Trip Highlights can be added from settings.
+* Enhancement - Trip highlights shown below Trip Prices
+* Enhancement - WTE Custom pages lable shown in Admin Screen > Pages.
+* Fixes - Category per-group not working issue fixed.
+* Fixes - Minor Bug Fixes.
+* Fixes - Trip Price Issue fixes.
+* Fixes - Calendar translation support added.
+* Fixes - Minor Bug fixes.
+
+= 5.0.2 - 1st June 2021 =
+* Scrips loading issue on backend fixed.
+* Fixes - Minor Bug Fixes.
+
+= 5.0.1 - 31st May 2021 =
+* Design issue fixing for responsive booking UI
+* Compatibility fixes for themes.
+* Fixes - Minor Bug Fixes.
+
+= 5.0.0 - Major Update Release - 30th May 2021 =
+* [New Feature] Multiple Pricing Categories
+* [New Feature] Multiple Dates and Times
+* [New Feature] New Trip Booking User Interface (UI)
+* Fixes - Minor Bug Fixes.
+
+= 4.3.8 - 6th May 2021 =
+* Tweak - Display untested plugin list as for both minor and major updates in pre update notice.
+* Dev - Introduces plugin headers
+* Enahancement - Shows notice on extension license expiry.
+* Enahancement - Auto deactivate license on Expiry.
+* Fixes - Minor Bug Fixes.
+
+== Changelog ==
+= 4.3.7 - 19th March 2021 =
+* Fixes - Deprecated functions cleanup / alternative implemented in core.
+* Fixed - Empty spaces in itinerary section issue fixed.
+* Fixes - Minor Bug Fixes.
+
+= 4.3.6 - 16th March 2021 =
+* Fixes - Partial payment issue fixed with PayPal Express checkout.
+* Fixes - Form render issue fixed with Ninja Forms.
+* Enhancement - WordPress 5.7 compatibility update.
+* Fixes - Minor Bug Fixes.
+
+= 4.3.5 - 26th February 2021 =
+* Fixes - Thousand separator single quote display issue fixed.
+* Enhancement - Added translation support for Bank Transfer and Check Payment Global Settings.
+* Enhancement - Freemius version updated to latest ( 2.4.2 ).
+* Fixes - Minor Bug Fixes.
+
+= 4.3.4 - 17th February 2021 =
+* Email booking subject issue fixing.
+* Fixes - Minor Bug Fixes.
+
+= 4.3.3 - 12th February 2021 =
+* Fixed issues related to booking options and email tags.
+* Fixing of issues regarding WP Travel Engine and Fixed Departure Dates seats.
+* Fixes - Minor Bug Fixes.
+
+= 4.3.2 - 10th February 2021 =
+* Booking meta edit and save issues fixed.
+* Fixes - Minor Bug Fixes.
+
+= 4.3.1 - 4th February 2021 =
+* Trip Facts minor issues fixed.
+* Checkout form validation issue fixed.
+* Fixes - Minor Bug Fixes.
+
+= 4.3.0 - 2nd February 2021 =
+* Enhancement - Conflict with FontAwesome fixed for Elementor premium addon.
+* Enhancement - New Email Templates added for payment notification and status for Admin and Customers.
+* Enhancement - Preview Email templates right from the settings screen.
+* Enhancement - Optimized booking data to support future Enhancements like Multiple Checkout and Payment processing.
+* Fixes - Minor Bug Fixes.
+
+= 4.2.4 - 21st December 2020 =
+* Fixes - Compatibility fixes added for WordPress 5.6 and PHP 8.0 basic compatibility.
+* Fixes - jQuery migrate updated version in WP 5.6 compatibility fixes done.
+* Fixes - Minor Bug Fixes.
+
+= 4.2.3 - 7th December 2020 =
+* Fixes - Fixed total payable now calculation error on checkout page fixed.
+* Fixes - Minor Bug Fixes.
+
+= 4.2.2 - 1st December 2020 =
+* Fixes - Compatibility fixes for WP Travel Engine Fixed Starting Dates Addon latest version.
+* Fixes - Minor Bug Fixes.
+
+= 4.2.1 - 11th November 2020 =
+* Enhancements - Included Freemius library update with latest security release.
+* Enhancements - Select2 package updated to latest version.
+* Enhancements - CSS Style enhancements for trip dates sections.
+* Fixes - Compatibility fixes for WP Travel Engine Fixed Starting Dates Addon latest version.
+* Fixes - Minor Bug Fixes.
+
+= 4.2.0 - 2nd November 2020 =
+* Enhancements - Booking calander screen enhancements and fixes.
+* Enhancements - EDD compatibility for latest version added.
+* Fixes - Minor Bug Fixes.
+
+= 4.1.9 - 8th October 2020 =
+* New Feature - BACS and Check Payment Gateway Support Added
+* Fixes - Translation missing issue fixed for continue button and Dashboard String.
+* Fixes - Minor Bug Fixes.
+
+= 4.1.8 - 1st October 2020 =
+* Enhancement - Trip Cut-off time calculation enhancements for more accurate calculation of cut off days.
+* Fixes - Trip filters not working isssue fixed for Trip Listing template.
+* Fixes - Partial payment issues fixed for checkout page.
+* Fixes - Minor Bug Fixes.
+
+= 4.1.7 - 29th September 2020 =
+* Fixes - Booking option hidden for default payment gateways issue fixed.
+* Fixes - Minor Bug Fixes.
+
+= 4.1.6 - 24th September 2020 =
+* New Feature - Partial Payment support for bookings from User Dashboard.
+* Enhancement - All payment gateways compatibility fixes.
+* Fixes - Minor Bug Fixes.
+
+= 4.1.5 - 17th September 2020 =
+* Fixes - Compatibility fixes for addons.
+* Fixes - Minor Bug Fixes.
+
+= 4.1.4 - 11th September 2020 =
+* Fixes - Select2 JS error in console fixed.
+* Enhancement - Enquiry form fields reordered.
+* Fixes - Minor Bug Fixes.
+
+= 4.1.3 - 10th September 2020 =
+* Fixes - Select2 JS double load issue fixed.
+* Enhancements - WP Editor Support for Taxonomy Description.
+* Fixes - for new addons compatibility.
+* Fixes - Minor Bug Fixes.
+
+= 4.1.2 - 1st September 2020 =
+* Fixes - Minor Bug Fixes.
+
+= 4.1.1 - 1st September 2020 =
+* Enhancements - Compatibility added for Currency Converter addon and Travel Muni theme.
+* Enhancements - Price filters in archive pages updated to search according to actual trip price.
+* Enhancements - Hooks added before and after minicart in checkout page.
+* Enhancements - Minimum Maximum age icon field added.
+* Fixes - Added remove buttons for Trip Info Icons.
+* Fixes - Minor Bug Fixes.
+
+= 4.1.0 - 13th August 2020 =
+* Enhancements - Compatibility Testing with WordPress version 5.5.
+* Fixes - Partial pay option showing even when off in post issue fixed.
+* Fixes - Send quick message link removed when enquiry form is disabled in trips.
+* Fixes - Minor Bug Fixes.
+
+= 4.0.9 - 13th August 2020 =
+* Enhancements - Compatibility Testing with WordPress version 5.5.
+* Fixes - Minor Bug Fixes.
+
+= 4.0.8 - 6th August 2020 =
+* Enhancements - Booking status update options added for bookings.
+* Fixes - Fixed Departure dates freed up upon booking cancellation and refunded bookings.
+* Fixes - Minor Bug Fixes.
+
+= 4.0.7 - 30th July 2020 =
+* Fixes - Data loss on preview trip post issue resolved.
+* Fixes - Featured string translate ready in list view.
+* Fixes - Minor Bug Fixes.
+
+= 4.0.6 - 16th July 2020 =
+* Enhancement - Partial payment dues and paid details added on Bookings dashboard page.
+* Enhancement - Single-trip tab title filters added.
+* Enhancement - Hooks added for Zapier addon.
+* Fixes - Group Discount issue fixes in archive pages.
+* Fixes - Minor Bug Fixes.
+
+= 4.0.5 - 3rd July 2020 =
+* Enhancement - Compatibility support added for currency converter addon.
+* Fixes - Minor Bug Fixes.
+
+= 4.0.4 - 2nd July 2020 =
+* Enhancement - Zero traveller selection support for Adult pricing.
+* Enhancement - Compatibility support added for coupon addon.
+* Fixes - Minor Bug Fixes.
+
+= 4.0.3 - 30th June 2020 =
+* Enhancement - Image support added for booking emails.
+* Enhancement - Months name i18n support added.
+* FIX - Itinerary and FAQs delete issue fixed.
+* FIX - HTML render issue fixed for itinerary contents.
+* FIX - Iframe code render issue fixed for tabs.
+* FIX - Fontawesome assets loaded on WP Travel Engine admin pages only.
+* FIX - Minor bug fixes.
+
+= 4.0.2 - 23rd June 2020 =
+* FIX - Map tab not shown issues for some installations.
+* Enhancement - Trip Nights detail meta field added back to new backend UI.
+* FIX - Minor bug fixes.
+
+= 4.0.1 - 21st June 2020 =
+* FIX - HTML content as entity encoded issue fixed for textarea contents.
+* Enhancement - Plugin Screenshots Updated.
+* FIX - Minor bug fixes.
+
+### Major Update Release
+
+= 4.0.0 - 18th June 2020 =
+* Enhancement - Intuitive backend UI
+* Enhancement - New Trip Edit Screen
+* Enhancement - Updated Booking Screen
+* Enhancement - Updated Enquiry Screen
+* Enhancement - Updated Settings Screen
+* Enhancement - Updated Plugin License Page
+* Enhancement - New User Onboarding process
+* Feature - Price Per Group
+* Feature - Add Manual Booking
+* Feature - Default Trip Code
+* Feature - Cut-Off Time
+* Feature - Min-Max Participants
+* Feature - Trip Highlights
+* Fixes - Minor Bug Fixes
+
+= 3.1.8 - 21st May 2020 =
+* Enhancement - Booking confirmation message updated.
+* Enhancement - Hooks added for templates.
+* Fixes - i18n support added for missing strings.
+* Fixes - Minor bug fixes.
+
+= 3.1.7 - 14th May 2020 =
+* Enhancement - Compatibility support added for Coupon Code Addon.
+* Enhancement - WP Travel Engine Cart page updated.
+* Enhancement - WP Session management lib updated.
+* Enhancement - Public JS Assets optimization.
+* Fixes - URL conflict in Enquiry Forms with 'WP External Links' plugin resolved.
+* Fixes - i18n support added for missing strings.
+
+= 3.1.6 - 23rd April 2020 =
+* Enhancement - Compatibility support for Itinerary Downloader Addon.
+* Fixes - Owl Carousel JS missing issue fixed for default themes.
+* Fixes - Fontawesome JS files handle name issue fixed.
+
+= 3.1.5 - 22nd April 2020 =
+* Enhancement - Added support for dynamic dashboard page, changed dashboard page URL to my-account
+* Enhancement - Filters added for View Details in list and grid template
+* Enhancement - Traveller cost details added in Booking Emails and Thankyou Page
+* Enhancement - Enquiry Form Email template added
+* Enhancement - Assets optimized for better speed
+* Enhancement - Video Gallery Shortcode for slider/popup added
+* Fixes - Invalid IPN issue fixed
+* Fixes - Destination Taxonomy Pages - Nothing Found issue resolved
+* Fixes - Booking form above the enquiry form on the mobile
+* Fixes - Booking Summary above Checkout form in mobile
+* Fixes - Added maxwidth for trip fact block svg
+* Fixes - Price filter changed to Regular Price instead of Sales Price
+* Fixes - Design fixes for radio button labels in Enquiry Form
+* Fixes - Minor bug fixes.
+
+= 3.1.4 - 13th April 2020 =
+* Fixes - Magnific Popup JS error fixes for dashboard.js
+* Fixes - Minor bug fixes.
+
+= 3.1.3 - 10th April 2020 =
+* Enhancements - Wrapper function added for core _doing_it_wrong() function.
+* Fixes - Shiny update message hidden issue fixed.
+* Fixes - URLs updated for compatible themes.
+* Fixes - Minor bug fixes.
+
+= 3.1.2 - 9th April 2020 =
+
+* New Feature - WP Travel Engine User Dashboard - Frontend Dashboard for customers.
+* Fixes - Package Name link added in Enquiry email
+* Fixes - Empty tabs and missing cost tab issue fixed
+* Fixes - Mail tags not working issue fixed for form editor addon.
+
+= 3.1.1 - 6th April 2020 =
+
+* Enhancements - Removed session_start() function to avoid conflict with WordPress Sessions.
+* Enhancement - New email template added for responsive booking emails.
+* Fixes - cURL 28 error fixed from WordPress site health screen.
+* Fixes - REST API error fixed from site health.
+* Fixes - Design issue fixes for Fixed Starting dates on grid and list views.
+
+= 3.1.0 - 2nd April 2020 =
+
+* Feature - featured trips functionality added
+* Feature - featured trips widget added
+* Feature - Video Gallery support added
+* Enhancement - compatibility check for WordPress 5.4
+* Enhancement - single trip content parts refactor
+* Enhancement - grid and list content template added
+* Enhancement - layout and postsnumber parameter support added for custom shortcodes
+* Enhancement - display currency symbol or code in single trip/archive pages
+* Enhancement - hooks added for Travel Muni theme.
+
+= 3.0.9 - 5th March 2020 =
+
+* Fix - translation issue fixes for enquiry form strings.
+* Fix - 'inquiry' text changed to 'enquiry' for consistency.
+* Fix - empty price display issue fixed in archive listing pages.
+* Enhancement - {booking_id} email tag added for booking and purchase emails.
+
+= 3.0.8 - 2nd March 2020 =
+
+* Fix - Default global tabs settings added.
+* Fix - Booking form display issue fixed for empty prices.
+* Enhancement - Updated priority of load plugin textdomain from WP_LANG_DIR to avoid translation override issue on plugin update.
+* Enhancement - 'From Name' added for Enquiry admin emails.
+* Enhancement - Parsley JS validation added for enquiry form validation.
+* Enhancement - Hooks added for Form Editor and File Downloads addons.
+
+= 3.0.7 - 14th February 2020 =
+
+* Fix - Pricing option label used as key issue fixed.
+* Enhancement - Partial template added for itinerary tab.
+* Enhancement - Hooks added for WP Travel Engine Advanced Itinerary Builder addon.
+
+= 3.0.6 - 12th February 2020 =
+
+* Fix - Pricing fixes when default price for adult traveller not set.
+* Fix - Fontawesome icons list fade out issue for trip tabs and trip info fixed.
+* Feature - Settings to display multiple prices list in booking form added.
+* Enhancement - Added smooth scroll for "Send Us A Message" link.
+
+= 3.0.5 - 6th February 2020 =
+
+* Fix - Allowed pricing options selection for 0 prices.
+* Fix - 404 page PHP warnings fixed.
+* Fix - PHP warnings fixed when FAQs are not set for trips.
+* Enhancement - Payments status metabox added for booking.
+* Enhancement - Compatibility fixes with Currency Converter Addon.
+
+= 3.0.4 =
+
+Released on: 29th January, 2020
+
+Fixes:
+
+* Minor bug fixes.
+
+= 3.0.3 =
+
+Released on: 29th January, 2020
+
+Features:
+
+* Multi Pricing options added.
+* Freemius Integration added.
+
+Enhancements:
+
+* Cache Busting for scripts.
+* Hooks added for Currency Converter addon.
+* Added {city} and {country} email tags for Booking Emails.
+
+Fixes:
+
+* Taxonomy pages optimized.
+* Minor bug fixes.
+
+= 3.0.2 =
+
+Released on: 17th January, 2020
+
+Fixes:
+
+* Sold Out Dates set to unavailable in Booking Form.
+* Minor bug fixes.
+
+= 3.0.1 =
+
+Released on: 16th January, 2020
+
+Fixes:
+
+* Booking Form hidden for empty prices.
+* Multiple Pricing beta version removed.
+* Minor bug fixes.
+
+= 3.0.0 =
+
+### Major Update Release
+
+Released on: 15th January, 2020
+
+Features:
+
+* [New] Conversion Optimized Booking Process Indicator.
+* [New] Booking Form on the Trip Page.
+* [New] Checkout Page Design.
+
+Enhancements:
+
+* Getting Started Page.
+* Optimized Booking and Payment Process.
+
+Fixes:
+
+* Minor bug fixes.

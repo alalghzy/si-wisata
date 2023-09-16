@@ -1,0 +1,384 @@
+/*
+Theme Name: Travel Booking
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+.site-header .site-branding{
+    float: right;
+    padding: 9px 10px 0 0;
+}
+
+.site-header .right{
+    float: left;
+}
+
+.custom-logo-link{
+    margin-left: 10px;
+}
+
+.site-header .right .tools{
+    margin-right: 40px;
+    margin-left: 0;
+    padding-right: 14px;
+    padding-left: 0;
+}
+
+.site-header .right .tools:after{
+    left: 100%;
+}
+
+.site-header .right .tools .form-section-holder .form-section{
+    -webkit-transform: translate(-100%, -50%);
+    -moz-transform: translate(-100%, -50%);
+    transform: translate(-100%, -50%);
+}
+
+.main-navigation ul li{
+    float: right;
+    margin-right: 35px;
+    margin-left: 0;
+}
+
+@media only screen and (min-width: 1025px){
+    .main-navigation ul ul{
+        text-align: right;
+    }
+
+    .main-navigation ul ul ul{
+        left: -100%;
+    }
+}
+
+.site-header .right .tools .form-section-holder .form-holder{
+    right: auto;
+    left: 0;
+}
+
+.site-header .right .tools .form-section-holder .form-holder .search-form label{
+    float: right;
+}
+
+.site-header .right .tools .form-section-holder .form-holder .search-form input[type="submit"]{
+    float: left;
+}
+
+.popular-package .grid .col .text-holder .trip-info .star-holder .review-wrap .average-rating{
+    text-align: right;
+}
+
+.popular-package .grid .col .text-holder .trip-info .star-holder .review-wrap .average-rating .agg-rating{
+    margin-left: 5px;
+}
+
+.popular-package .grid .col .text-holder .next-trip-info .next-departure-list li .right,
+.featured-trip .grid .col .text-holder .next-trip-info .next-departure-list li .right,
+.deals-section .grid .col .text-holder .next-trip-info .next-departure-list li .right{
+    float: left;
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+.popular-package .grid .col .text-holder .next-trip-info .next-departure-list li .left,
+.featured-trip .grid .col .text-holder .next-trip-info .next-departure-list li .left,
+.deals-section .grid .col .text-holder .next-trip-info .next-departure-list li .left{
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.popular-package .grid .col .text-holder .next-trip-info .next-departure-list li .left .fa,
+.featured-trip .grid .col .text-holder .next-trip-info .next-departure-list li .left .fa,
+.deals-section .grid .col .text-holder .next-trip-info .next-departure-list li .left .fa{
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.cta-section .widget .right .button-holder{
+    right: auto;
+    left: 0;
+}
+
+.deals-section .grid .col .img-holder,
+.deals-section .grid .col .img-holder img{
+    border-radius: 0 5px 5px 0;
+}
+
+.deals-section .grid .col .text-holder{
+    border-radius: 5px 0 0 5px;
+    border-right: 0;
+    border-left: 1px solid #ddd;
+}
+
+.deals-section .grid .col .group-discount,
+.deals-section .grid .col .price-holder{
+    left: auto;
+    right: 25px;
+}
+
+.deals-section .grid .col .img-holder .discount-amount{
+    right: auto;
+    left: -29px;
+    -webkit-transform: rotate(-45deg);
+}
+
+.site-footer .footer-t .column{
+    float: right;
+}
+
+#crumbs li{
+    float: right;
+}
+
+#crumbs .current{
+    padding: 4px 15px 4px 11px;
+}
+
+#crumbs .current:before{
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 7px solid #fff;
+    border-bottom: 13px solid transparent;
+    border-left: 0;
+    left: auto;
+    right: 0;
+}
+
+#crumbs .current:after{
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 7px solid #5c7cfb;
+    border-bottom: 13px solid transparent;
+    border-left: 0;
+    right: auto;
+    left: -7px;
+}
+
+#crumbs a{
+    padding: 4px 11px 4px 5px;
+}
+
+#crumbs a:hover:after{
+    border-right-color: #5c7cfb;
+}
+
+#crumbs a:after{
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 7px solid #efefef;
+    border-bottom: 13px solid transparent;
+    border-left: 0;
+    right: auto;
+    left: -7px;
+}
+
+#primary{
+    float: right;
+}
+
+#secondary{
+    float: right;
+    padding-left: 15px;
+    padding-right: 45px;
+}
+
+#primary .post .text-holder .category a,
+#primary .search-item .text-holder .category a{
+    float: right;
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+#primary .post .text-holder .entry-header .entry-meta .posted-on,
+#primary .post .text-holder .entry-header .entry-meta .byline,
+#primary .search-item .text-holder .entry-header .entry-meta .posted-on,
+#primary .search-item .text-holder .entry-header .entry-meta .byline{
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 0;
+}
+
+#primary .post .text-holder .entry-header .entry-meta .fa,
+#primary .search-item .text-holder .entry-header .entry-meta .fa{
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+#primary .post .text-holder .entry-footer .btn-holder .primary-btn,
+#primary .search-item .text-holder .entry-footer .btn-holder .primary-btn{
+    box-shadow: -14px 0 #fff;
+}
+
+#secondary .widget_travel_booking_toolkit_contact_social_links ul li,
+.site-footer .footer-t .widget_travel_booking_toolkit_contact_social_links ul li{
+    padding-right: 50px;
+    padding-left: 0;
+}
+
+.widget_travel_booking_toolkit_contact_social_links ul li i.fa{
+    left: 100%;
+}
+
+.widget_travel_booking_toolkit_pro_recent_post ul li .post-thumbnail{
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+#secondary .widget_search .search-form input[type="submit"]{
+    float: left;
+}
+
+#secondary .widget_search .search-form label{
+    float: right;
+}
+
+.author-section .img-holder{
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.comments-area .comment-body .comment-meta{
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.comments-area .comment-body .text-holder .top .left{
+    float: right;
+}
+
+.comments-area .comment-body .text-holder .top .reply{
+    float: left;
+}
+
+.comments-area .comment-body .comment-metadata a .fa{
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.error404 .error-page .error-holder .search-form label{
+    float: right;
+}
+
+.error404 .error-page .error-holder .search-form input[type="submit"]{
+    float: left;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous{
+    float: right;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next{
+    float: left;
+}
+
+.site-main .post-navigation .nav-previous,
+.site-main .comment-navigation .nav-previous{
+    padding-right: 30px;
+    padding-left: 0;
+    text-align: right;
+}
+
+.site-main .post-navigation .nav-next,
+.site-main .comment-navigation .nav-next{
+    padding-left: 30px;
+    padding-right: 0;
+    text-align: left;
+}
+
+.site-main .post-navigation .nav-previous:before,
+.site-main .comment-navigation .nav-previous:before{
+    left: auto;
+    right: 0;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.site-main .post-navigation .nav-next:before,
+.site-main .comment-navigation .nav-next::before{
+    right: auto;
+    left: 0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.trip-content-area .widget-area .trip-price .price-holder{
+    text-align: right;
+}
+
+.trip-content-area .secondary-trip-info .trip-facts-value li .fa{
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+#tabs-container .tab-inner-wrapper .tab-anchor-wrapper{
+    float: right;
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.single-trip #tabs-container .tab-content .itinerary-row{
+    margin-left: 0;
+    margin-right: 20px;
+    padding-right: 60px;
+    padding-left: 0;
+    border-right: 2px dashed rgba(0,0,0,0.1);
+    border-left: 0;
+}
+
+.single-trip #tabs-container .tab-content .itinerary-row:before{
+    left: auto;
+    right: -17px;
+}
+
+.single-trip #tabs-container .tab-content .cost .content ul li{
+    padding-right: 35px;
+    padding-left: 0;
+}
+
+.single-trip #tabs-container .tab-content .cost .content ul#include-result li:before{
+    left: auto;
+    right: 0;
+}
+
+.single-trip #tabs-container .tab-content .cost .content ul#exclude-result li:before{
+    left: auto;
+    right: 0;
+}
+
+.single-trip #tabs-container .tab-content .faq .faq-row .accordion-tabs-toggle{
+    padding-right: 20px;
+}
+
+.single-trip #tabs-container .tab-content .review-wrap{
+    text-align: right;
+}
+
+.review-wrap .comment-list li .comment-author{
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.review-wrap{
+    text-align: right;
+}

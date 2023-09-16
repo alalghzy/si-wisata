@@ -1,0 +1,76 @@
+{
+    "api_version": 2,
+    "name": "wptravelengine/activities",
+    "category": "widgets",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": ""
+        },
+        "subtitle": {
+            "type": "string",
+            "default": ""
+        },
+        "showTitle": {
+            "type": "boolean",
+            "default": true
+        },
+        "showSubtitle": {
+            "type": "boolean",
+            "default": true
+        },
+        "titleLevel": {
+            "type": "number",
+            "default": 2
+        },
+        "itemsCount": {
+            "type": "number",
+            "default": 6
+        },
+        "itemsPerRow": {
+            "type": "number",
+            "default": 3
+        },
+        "cardlayout": {
+            "type": "number",
+            "default": 1
+        },
+        "linkText": {
+            "type": "string",
+            "default": "View More"
+        },
+        "countLabel": {
+            "type": "string",
+            "default": "Trips"
+        },
+        "listby": {
+            "type": "string",
+            "default": "default"
+        },
+        "listItems": {
+            "type": "array",
+            "default": []
+        },
+        "layoutFilters": {
+            "type": "object",
+            "default": {
+                "showCTAButton": true,
+                "showFeaturedRibbon": true,
+                "showDescription": false,
+                "showFeaturedImage": true,
+                "showTitle": true,
+                "showPrice": true,
+                "showStrikedPrice": false,
+                "showDuration": true,
+                "showLocation": true,
+                "showReviews": false,
+                "showDiscount": true,
+                "showTripType": false,
+                "showGroupSize": false,
+                "showTripAvailableTime": false,
+                "showViewMoreButton": true,
+                "showTripCounts": true
+            }
+        }
+    }
+}
